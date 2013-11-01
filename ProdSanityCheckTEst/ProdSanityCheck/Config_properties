@@ -1,0 +1,13 @@
+#Login
+LOGIN=ebogomol
+PASSWORD=q1w2e3
+#File with results of checks
+LOCATION=D:\\ProdSanityCheck\\
+FILE_NAME=Report.txt
+#Portal's links
+LINK_TO_PORTAL=http://portal.oggifinogi.com/Oggi/Login.aspx
+LOCAL_PATH_TO_IMAGE=http://cdn.oggifinogi.com/prod/2013-10/b87b0471-e628-4df6-aa34-344a39612f71_v1.jpg
+#Delete entity
+ENTITIES_NAME=Ad
+ENTITIES_NAME=Video
+ENTITIES_ID-1359039f-5eb4-4939-a4bd-5c9436ab9559
