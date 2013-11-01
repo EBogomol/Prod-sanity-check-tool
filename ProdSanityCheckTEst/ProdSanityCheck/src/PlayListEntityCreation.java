@@ -22,6 +22,7 @@ public class PlayListEntityCreation extends EntityCreationPage{
         this.screen.sendKeys("Desktop");
         this.smallwidget = webdriver.findElement(By.id("WidgetId_name"));
         this.smallwidget.sendKeys("TestWidtetEntity");
+        clickSubmitButton();
     }
 
 

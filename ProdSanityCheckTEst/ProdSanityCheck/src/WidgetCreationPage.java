@@ -2,6 +2,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class WidgetCreationPage extends EntityCreationPage{
 
     private WebElement basewidget;
@@ -18,15 +20,14 @@ public class WidgetCreationPage extends EntityCreationPage{
     public void createWidget() throws InterruptedException {
         basePage.openCreationPage("Widget");
         fillTitlefield("TestWidtetEntity");
-        this.basewidget = webdriver.findElement(By.name("BaseEntity"));
-        this.basewidget.sendKeys("Watch and Register Preroll 4:3");
-        this.schemaTab = webdriver.findElement(By.partialLinkText("Schema"));
-        this.schemaTab.click();
+
+        WebElement select = webdriver.findElement(By.name("BaseEntity"));
+        List<WebElement> options = select.findElements(By.tagName("option"));
+        for (WebElement option : options) {
+            if("Ask Banner Base Widget".equals(option.getText()))
+                option.click();
+        }
         Thread.sleep(2000);
-        this.width = webdriver.findElement(By.id("Width"));
-        this.width.sendKeys("400");
-        this.height = webdriver.findElement(By.id("Height"));
-        this.height.sendKeys("300");
         clickSubmitButton();
     }
 

@@ -40,6 +40,10 @@ public class SanityCheck {
 
         TestwidgetCreation testwidgetCreation = new TestwidgetCreation(driver);
 
+        PlayListEntityCreation playListEntityCreation = new PlayListEntityCreation(driver);
+
+        TestPlayListEntityCreation testPlayListEntityCreation = new TestPlayListEntityCreation(driver);
+
         loginPage.loginToSystem(configs.Login, configs.Password, configs.LinkToPortal);
 
 
@@ -59,6 +63,8 @@ public class SanityCheck {
         tEstBaseWidgetCreation.checkabilityToCreateBW();
         widgetCreationPage.createWidget();
         testwidgetCreation.checkAbilityToCreateWidget();
+        playListEntityCreation.createPlayListentity();
+        testADExternalImage.checkAbilityToCreateAd();
 
 
 
