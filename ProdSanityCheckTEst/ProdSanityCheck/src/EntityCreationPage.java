@@ -8,6 +8,7 @@ public class EntityCreationPage {
     public WebElement CancelButton;
     public WebElement titleField;
     public WebElement externalButton;
+    public WebElement selectButton;
 
 
     public EntityCreationPage(WebDriver driver){
@@ -29,8 +30,9 @@ public class EntityCreationPage {
         public void fillTitlefield(String entityTitle){
             titleField = webdriver.findElement(By.id("EntityName"));
             titleField.sendKeys(entityTitle);
-
-
+        }
+        public void selectentity(String titleOfentity){
+            selectButton = webdriver.findElement(By.className("bla"));
         }
 
 

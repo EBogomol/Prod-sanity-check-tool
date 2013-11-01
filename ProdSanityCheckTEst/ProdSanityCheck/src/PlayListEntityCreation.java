@@ -6,6 +6,7 @@ public class PlayListEntityCreation extends EntityCreationPage{
     public WebElement AdType;
     public WebElement screen;
     public WebElement smallwidget;
+    public WebElement popupWindow;
 
     BasePage basePage = new BasePage(webdriver);
 
@@ -20,8 +21,11 @@ public class PlayListEntityCreation extends EntityCreationPage{
         this.AdType.sendKeys("Collective TV");
         this.screen = webdriver.findElement(By.id("Screen"));
         this.screen.sendKeys("Desktop");
-        this.smallwidget = webdriver.findElement(By.id("WidgetId_name"));
-        this.smallwidget.sendKeys("TestWidtetEntity");
+        this.smallwidget = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
+        this.smallwidget.click();
+        popupWindow = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvPickerDialog']/div)"));
+        popupWindow.findElement()
+
         clickSubmitButton();
     }
 
