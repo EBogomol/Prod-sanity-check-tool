@@ -5,16 +5,12 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class SanityCheck {
-       public List<String> entityName;
-        public List<String> entityIds;
-
-    static FirefoxDriver driver;
+         static FirefoxDriver driver;
 
     public void performSanityCheck() throws Exception {
         ConfigsProperties configs = ConfigsProperties.getInstance();
         Report.clear(configs.FileReportLocation);
         Report.create(configs.FileReportLocation, configs.FileReporName);
-        String enityNames = E
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -63,7 +59,7 @@ public class SanityCheck {
         tEstBaseWidgetCreation.checkabilityToCreateBW();
         widgetCreationPage.createWidget();
         testwidgetCreation.checkAbilityToCreateWidget();
-        basePage.deleteEntity(configs.EntityName.co);
+
 
 
 

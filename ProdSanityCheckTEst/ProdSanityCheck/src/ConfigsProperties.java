@@ -42,7 +42,7 @@ public class ConfigsProperties {
        FileReporName     = configFile.getProperty("FILE_NAME");
        LinkToPortal      = configFile.getProperty("LINK_TO_PORTAL");
        LocalPathToImage       = configFile.getProperty("LOCAL_PATH_TO_IMAGE");
-       EntityName           = configFile.getProperty("ENTITIES_NAME");
+
 
     }
 

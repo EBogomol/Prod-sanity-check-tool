@@ -16,7 +16,7 @@ public class TestwidgetCreation {
         webdriver = driver;
     }
     public void checkAbilityToCreateWidget() throws InterruptedException, IOException {
-            Thread.sleep(7);
+            Thread.sleep(10);
             settingModule = webdriver.findElement(By.id("properties"));
 
             if (settingModule.isDisplayed()){

@@ -8,7 +8,7 @@ public class BaseWidgetCreationPage extends EntityCreationPage{
     public WebElement width;
     public WebElement height;
     public WebElement schema;
-    public List<WebElement> options;
+    public WebElement schemaTab;
 
           BasePage basePage= new BasePage(webdriver);
 
