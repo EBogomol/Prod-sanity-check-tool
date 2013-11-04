@@ -1,23 +1,22 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 
-public class TestLogin {
+public class TestLogin extends BasePage{
+    Logger logger = LogManager.getLogger(TestLogin.class.getName());
 
-         private WebDriver webDriver;
 
     public TestLogin(WebDriver driver){
-        webDriver = driver;
+        super(driver);
     }
        public void checkAccessToPortal() throws IOException {
-           ConfigsProperties configs = ConfigsProperties.getInstance();
-           Report reportCreator = new Report();
-
-          String SearchPageURL = webDriver.getCurrentUrl();
+          String SearchPageURL = webdriver.getCurrentUrl();
            if(SearchPageURL.equals("http://portal.oggifinogi.com/Oggi/Search?entityDef=All"))
-            reportCreator.write("Login to system is successfully performed", configs.FileReportLocation, configs.FileReporName);
+               logger.info("Login to system is successfully performed");
            else{
-              reportCreator.write("Wasn't able to go to system", configs.FileReportLocation, configs.FileReporName);
+               logger.info("Wasn't able to go to system");
            }
        }
 }

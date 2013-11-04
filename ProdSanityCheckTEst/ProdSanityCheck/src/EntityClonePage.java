@@ -1,3 +1,3 @@
 
-public class EntityClonePage {
+public class EntityClonePage  {
 }

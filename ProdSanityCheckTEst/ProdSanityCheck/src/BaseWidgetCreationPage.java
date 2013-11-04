@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
+import java.io.File;
 
 public class BaseWidgetCreationPage extends EntityCreationPage{
     public WebElement width;
@@ -10,7 +10,7 @@ public class BaseWidgetCreationPage extends EntityCreationPage{
     public WebElement schema;
     public WebElement schemaTab;
 
-          BasePage basePage= new BasePage(webdriver);
+          MainPage basePage= new MainPage(webdriver);
 
     public BaseWidgetCreationPage(WebDriver driver){
         super(driver);
@@ -22,7 +22,8 @@ public class BaseWidgetCreationPage extends EntityCreationPage{
         this.width.sendKeys("300");
         this.height = webdriver.findElement(By.id("Height"));
         this.height.sendKeys("400");
-        uploadFile("file:///D:/Components%20testing/AnimationButton.swf");
+        String path = new File("./resourses/WeatherWidget.swf").getAbsolutePath().replace('\\','/');
+        uploadFile("file:///"+path);
         this.schema = webdriver.findElement(By.id("CommonSchema"));
         this.schema.sendKeys("Preroll Schema");
         clickSubmitButton();

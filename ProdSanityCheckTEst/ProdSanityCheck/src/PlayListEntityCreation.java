@@ -7,7 +7,7 @@ public class PlayListEntityCreation extends EntityCreationPage{
     public WebElement screen;
     public WebElement smallwidget;
 
-    BasePage basePage = new BasePage(webdriver);
+    MainPage basePage = new MainPage(webdriver);
 
     public PlayListEntityCreation(WebDriver driver) {
         super(driver);

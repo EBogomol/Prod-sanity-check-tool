@@ -4,24 +4,23 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginPage {
+public class LoginPage  extends BasePage {
 
-    private WebDriver webDriver;
     WebElement LoginField;
     WebElement PasswordField;
     WebElement OkButton;
 
     public LoginPage(WebDriver driver) {
-        webDriver = driver;
+        super(driver);
     }
        public void loginToSystem(String login, String Password, String LinkToPortal){
-           webDriver.get(LinkToPortal);
+           webdriver.get(LinkToPortal);
 
-           LoginField = webDriver.findElement(By.id("ctl00_cphContent_ctl00_txtLogin"));
+           LoginField = webdriver.findElement(By.id("ctl00_cphContent_ctl00_txtLogin"));
            LoginField.sendKeys(login);
-           PasswordField = webDriver.findElement(By.id("ctl00_cphContent_ctl00_txtPassword"));
+           PasswordField = webdriver.findElement(By.id("ctl00_cphContent_ctl00_txtPassword"));
            PasswordField.sendKeys(Password);
-           OkButton = webDriver.findElement(By.id("ctl00_cphContent_ctl00_btLogin"));
+           OkButton = webdriver.findElement(By.id("ctl00_cphContent_ctl00_btLogin"));
            OkButton.click();
        }
 }

@@ -1,28 +1,27 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 
-public class TEstBaseWidgetCreation {
-    public WebDriver webdriver;
+public class TestBaseWidgetCreation extends BasePage{
+
     public WebElement settingModule;
+    Logger logger = LogManager.getLogger(TestBaseWidgetCreation.class.getName());
 
-    ConfigsProperties configs = ConfigsProperties.getInstance();
-
-    Report reportCreator = new Report();
-
-    public TEstBaseWidgetCreation(WebDriver driver){
-        webdriver = driver;
+    public TestBaseWidgetCreation(WebDriver driver){
+        super(driver);
     }
     public void checkabilityToCreateBW() throws InterruptedException, IOException {
-          Thread.sleep(7);
+         waitForPageLoaded();
         settingModule = webdriver.findElement(By.id("properties"));
 
         if (settingModule.isDisplayed()) {
-            reportCreator.write("BaseWidget entity is successfully created", configs.FileReportLocation, configs.FileReporName);
+            logger.info("BaseWidget entity is successfully created");
         } else {
-            reportCreator.write("BaseWidget entity is unsuccessfully created", configs.FileReportLocation, configs.FileReporName);
+            logger.info("BaseWidget entity is unsuccessfully created");
         }
 
 

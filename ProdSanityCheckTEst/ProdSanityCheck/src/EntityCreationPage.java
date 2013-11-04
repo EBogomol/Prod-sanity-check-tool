@@ -2,8 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class EntityCreationPage {
-    public WebDriver webdriver;
+public class EntityCreationPage  extends BasePage{
     public WebElement SubmitButton;
     public WebElement CancelButton;
     public WebElement titleField;
@@ -11,7 +10,7 @@ public class EntityCreationPage {
 
 
     public EntityCreationPage(WebDriver driver){
-        webdriver = driver;
+        super(driver);
     }
 
         public void clickSubmitButton(){

@@ -1,34 +1,30 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
-public class TestVideoEntityCreation {
-    private WebDriver webdriver;
+public class TestVideoEntityCreation extends BasePage{
+
     private WebElement settingModule;
-
-    ConfigsProperties configs = ConfigsProperties.getInstance();
-
-    Report reportCreator = new Report();
+    Logger logger = LogManager.getLogger(TestBaseWidgetCreation.class.getName());
 
     public TestVideoEntityCreation(WebDriver driver){
-        webdriver = driver;
+        super(driver);
     }
 
     public void checkAbilityToCreateVideo() throws IOException, InterruptedException {
 
-        Thread.sleep(7);
+        waitForPageLoaded();
         settingModule = webdriver.findElement(By.id("properties"));
 
         if (settingModule.isDisplayed()){
-           reportCreator.write("Video entity is successfully created", configs.FileReportLocation, configs.FileReporName);
+            logger.info("Video entity is successfully created");
         }
         else{
-            reportCreator.write("Video entity is unsuccessfully created", configs.FileReportLocation, configs.FileReporName);
+            logger.info("Video entity is unsuccessfully created");
         }
 
     }

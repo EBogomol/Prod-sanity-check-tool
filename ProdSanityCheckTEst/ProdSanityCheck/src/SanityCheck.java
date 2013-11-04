@@ -1,7 +1,6 @@
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class SanityCheck {
@@ -9,8 +8,6 @@ public class SanityCheck {
 
     public void performSanityCheck() throws Exception {
         ConfigsProperties configs = ConfigsProperties.getInstance();
-        Report.clear(configs.FileReportLocation);
-        Report.create(configs.FileReportLocation, configs.FileReporName);
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -20,7 +17,7 @@ public class SanityCheck {
 
         TestLogin testLogin = new TestLogin(driver);
 
-        BasePage basePage = new BasePage(driver);
+        MainPage basePage = new MainPage(driver);
 
         AdCreationPage adCreationPage = new AdCreationPage(driver);
 
@@ -34,7 +31,7 @@ public class SanityCheck {
 
         BaseWidgetCreationPage baseWidgetCreationPage = new BaseWidgetCreationPage(driver);
 
-        TEstBaseWidgetCreation tEstBaseWidgetCreation = new TEstBaseWidgetCreation(driver);
+        TestBaseWidgetCreation tEstBaseWidgetCreation = new TestBaseWidgetCreation(driver);
 
         WidgetCreationPage widgetCreationPage = new WidgetCreationPage(driver);
 

@@ -7,7 +7,7 @@ public class VideoCreationPage extends EntityCreationPage {
     public  WebElement uploadButton;
     public WebElement inputField;
 
-    BasePage basePage = new BasePage(webdriver);
+    MainPage basePage = new MainPage(webdriver);
 
 
     public VideoCreationPage(WebDriver driver) {

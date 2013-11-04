@@ -9,7 +9,7 @@ public class WidgetCreationPage extends EntityCreationPage{
     public  WebElement width;
     public WebElement height;
 
-    BasePage basePage = new BasePage(webdriver);
+    MainPage basePage = new MainPage(webdriver);
 
     public WidgetCreationPage(WebDriver driver){
        super(driver);

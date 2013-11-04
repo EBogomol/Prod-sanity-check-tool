@@ -4,8 +4,8 @@ import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 
-public class TestwidgetCreation {
-    public WebDriver webdriver;
+public class TestwidgetCreation extends BasePage{
+
     public WebElement settingModule;
 
     ConfigsProperties configs = ConfigsProperties.getInstance();
@@ -13,10 +13,10 @@ public class TestwidgetCreation {
     Report reportCreator = new Report();
 
     public TestwidgetCreation(WebDriver driver){
-        webdriver = driver;
+        super(driver);
     }
     public void checkAbilityToCreateWidget() throws InterruptedException, IOException {
-            Thread.sleep(10);
+           waitForPageLoaded();
             settingModule = webdriver.findElement(By.id("properties"));
 
             if (settingModule.isDisplayed()){
