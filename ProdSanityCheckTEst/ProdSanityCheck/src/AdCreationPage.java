@@ -9,12 +9,12 @@ public class AdCreationPage extends EntityCreationPage {
     }
      EntityCreationPage entityCreationPage = new EntityCreationPage(webdriver);
        public void createADUpload(){
-           entityCreationPage.fillTitlefield("testAdImageUpload");
+           entityCreationPage.fillTitlefield("testAdImageUploadSC");
            entityCreationPage.uploadFile("file:///C:/Users/ebogomol/Pictures/testPicute.jpg");
            entityCreationPage.clickSubmitButton();
        }
         public void createADExternal(){
-            entityCreationPage.fillTitlefield("testAdImageExternal");
+            entityCreationPage.fillTitlefield("testAdImageExternalSC");
             uploadButton = webdriver.findElement(By.id("btnExternal"));
             uploadButton.click();
             externalButton = webdriver.findElement(By.id("MediaFile"));

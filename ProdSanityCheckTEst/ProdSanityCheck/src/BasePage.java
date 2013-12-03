@@ -59,15 +59,17 @@ public class BasePage {
 
     public String getEntityID(String Url) {
         String[] params = Url.split("/");
-        for (String param : params) {
-            if ("^{?([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}}?$".matches(param))
-                return param;
-            else
-                return String.valueOf(Url.isEmpty());
+        //for (String param : params) {
+          //  Boolean  isGuid = ("^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$").matches(param);
+                    if(params.length>=5)
+                return params[5];
 
-        }
-             return null;
+            return null;
+            }
+            //System.out.println(param);
+              // }
 
-    }
+
+
 
 }

@@ -26,10 +26,8 @@ public class PlayListEntityCreation extends EntityCreationPage{
         this.smallWidgetSelector = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
         this.smallWidgetSelector.click();
         Thread.sleep(1000);
-        smallWidgetEntity = popupWindow.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" +smallwidgetID));
+        smallWidgetEntity = webdriver.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" + smallwidgetID));
         smallWidgetEntity.click();
-        //bigWidgetentity = popupWindow.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" +bigWidgetID));
-      //  bigWidgetentity.click();
         clickSubmitButton();
     }
 

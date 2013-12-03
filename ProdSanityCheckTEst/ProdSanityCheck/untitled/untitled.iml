@@ -3,21 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <content url="file://$MODULE_DIR$/../../../log4j-1.2.17">
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/ThomasFenner" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/Jamie Tsao" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/MarkDouglas" isTestSource="false" packagePrefix="com.systemsunion.LoggingServer" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/VolkerMentzner" isTestSource="false" packagePrefix="com.psibt.framework.net" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/EirikLygre" isTestSource="false" packagePrefix="org.apache.log4j" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/JamesHouse" isTestSource="false" packagePrefix="org.apache.log4j.gui" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/KevinSteppe" isTestSource="false" packagePrefix="org.apache.log4j" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/KitchingSimon" isTestSource="false" packagePrefix="org.apache.log4j.net" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/JimMoore" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/CekiGulcu" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/LeosLiterak" isTestSource="false" packagePrefix="org.apache.log4j" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17/apache-log4j-1.2.17/contribs/SvenReimers" isTestSource="false" packagePrefix="org.apache.log4j" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../log4j-1.2.17" isTestSource="false" />
-    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

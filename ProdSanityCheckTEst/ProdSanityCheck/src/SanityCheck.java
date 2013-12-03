@@ -52,30 +52,23 @@ public class SanityCheck {
         String url = driver.getCurrentUrl();
         testLogin.checkAccessToPortal();
 
-        basePage.openCreationPage("ad");
-        adCreationPage.createADExternal();
-        testADExternalImage.checkAbilityToCreateAd();
-        basePage.openCreationPage("ad");
-        adCreationPage.createADUpload();
-        testADUploadImage.checkAbilityToCreateAd();
-        videoCreationPage.createVideoEntity();
-        testVideoEntityCreation.checkAbilityToCreateVideo();
-        baseWidgetCreationPage.createBaseWidgetEntity();
-        tEstBaseWidgetCreation.checkabilityToCreateBW();
+//        basePage.openCreationPage("ad");
+//        adCreationPage.createADExternal();
+//        testADExternalImage.checkAbilityToCreateAd();
+//        basePage.openCreationPage("ad");
+//        adCreationPage.createADUpload();
+//        testADUploadImage.checkAbilityToCreateAd();
+//        videoCreationPage.createVideoEntity();
+//        testVideoEntityCreation.checkAbilityToCreateVideo();
+//        baseWidgetCreationPage.createBaseWidgetEntity();
+//        tEstBaseWidgetCreation.checkabilityToCreateBW();
         widgetCreationPage.createWidget();
         testwidgetCreation.checkAbilityToCreateWidget();
 
         basePage.URL = driver.getCurrentUrl();
-        System.out.println(basePage.URL);
         WidgetEntityID = basePage.getEntityID(basePage.URL);
-        System.out.println(WidgetEntityID);
         playListEntityCreation.createPlayListentity(WidgetEntityID);
-        testADExternalImage.checkAbilityToCreateAd();
-
-
-
-
-
+        testPlayListEntityCreation.checkAbilityToCreatePlaylist();
     }
 
 
