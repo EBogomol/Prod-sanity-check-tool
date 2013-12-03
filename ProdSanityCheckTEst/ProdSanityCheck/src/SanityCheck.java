@@ -44,6 +44,7 @@ public class SanityCheck {
         PlayListEntityCreation playListEntityCreation = new PlayListEntityCreation(driver);
 
         TestPlayListEntityCreation testPlayListEntityCreation = new TestPlayListEntityCreation(driver);
+        CampaignCreationPage campaignCreationPage = new CampaignCreationPage(driver);
 
         loginPage.loginToSystem(configs.Login, configs.Password, configs.LinkToPortal);
 
@@ -65,10 +66,12 @@ public class SanityCheck {
         widgetCreationPage.createWidget();
         testwidgetCreation.checkAbilityToCreateWidget();
 
+
         basePage.URL = driver.getCurrentUrl();
         WidgetEntityID = basePage.getEntityID(basePage.URL);
         playListEntityCreation.createPlayListentity(WidgetEntityID);
         testPlayListEntityCreation.checkAbilityToCreatePlaylist();
+        campaignCreationPage.createCampaignEntity();
     }
 
 
