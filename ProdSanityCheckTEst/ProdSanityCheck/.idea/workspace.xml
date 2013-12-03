@@ -9,7 +9,7 @@
     <file path="/Programm.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375531879254" ignored="false" />
     <file path="/fragment.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383060233109" ignored="false" />
     <file path="/ReportCreator.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375560880641" ignored="false" />
-    <file path="/SanityCheck.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383314488254" ignored="false" />
+    <file path="/SanityCheck.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1386076845524" ignored="false" />
     <file path="/LoaderOfConfigs.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375558535313" ignored="false" />
     <file path="/Config.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375525084886" ignored="false" />
     <file path="/TestLogin.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375559987021" ignored="false" />
@@ -18,8 +18,8 @@
     <file path="/PortalPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383046976895" ignored="false" />
     <file path="/AdCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383062609840" ignored="false" />
     <file path="/EntityCloanPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1375629428917" ignored="false" />
-    <file path="/EntityCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383319845412" ignored="false" />
-    <file path="/BasePage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383237707271" ignored="false" />
+    <file path="/EntityCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1386072390363" ignored="false" />
+    <file path="/BasePage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1386076789335" ignored="false" />
     <file path="/AdCretionPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383062101159" ignored="false" />
     <file path="/TestADExternalImage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383142122916" ignored="false" />
     <file path="/TestADUploadImage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383141944446" ignored="false" />
@@ -27,9 +27,9 @@
     <file path="/TestVideoEntityCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383143690924" ignored="false" />
     <file path="/BaseWidgetCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383301278436" ignored="false" />
     <file path="/TEstBaseWidgetCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383235170154" ignored="false" />
-    <file path="/WidgetCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383315732049" ignored="false" />
+    <file path="/WidgetCreationPage.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1386071457922" ignored="false" />
     <file path="/TestwidgetCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383236220952" ignored="false" />
-    <file path="/PlayListEntityCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383323268599" ignored="false" />
+    <file path="/PlayListEntityCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1386072703823" ignored="false" />
     <file path="/TestPlayListEntityCreation.java" changelist="66cd8afb-7e99-46ed-b6ff-c204737ef9fa" time="1383314097557" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,9 +86,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -98,10 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EntityCreationPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EntityCreationPage.java">
+      <file leaf-file-name="Config_properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config_properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="75" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,16 +110,7 @@
       <file leaf-file-name="WidgetCreationPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WidgetCreationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPlayListEntityCreation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestPlayListEntityCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="15" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+            <state line="21" column="31" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,61 +119,25 @@
       <file leaf-file-name="SanityCheck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SanityCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="53" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0">
+            <state line="54" column="26" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayListEntityCreation.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PlayListEntityCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="32" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.9168539">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestADUploadImage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestADUploadImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="62" selection-start="324" selection-end="1105" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestwidgetCreation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestwidgetCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdCreationPage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AdCreationPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AdCreationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+            <state line="20" column="119" selection-start="941" selection-end="1023" vertical-scroll-proportion="0.49682876">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasePage.java">
+      <file leaf-file-name="PlayListEntityCreation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PlayListEntityCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="34" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseWidgetCreationPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BaseWidgetCreationPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="840" selection-end="841" vertical-scroll-proportion="0.0">
+            <state line="32" column="26" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,22 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Report.java" />
         <option value="$PROJECT_DIR$/src/TestVideoEntityCreation.java" />
         <option value="$PROJECT_DIR$/src/VideoCreationPage.java" />
         <option value="$PROJECT_DIR$/src/TEstBaseWidgetCreation.java" />
         <option value="$PROJECT_DIR$/src/TestADUploadImage.java" />
         <option value="$PROJECT_DIR$/src/DeleteEntity.java" />
-        <option value="$PROJECT_DIR$/src/BasePage.java" />
         <option value="$PROJECT_DIR$/Config_properties" />
         <option value="$PROJECT_DIR$/src/ConfigsProperties.java" />
         <option value="$PROJECT_DIR$/src/BaseWidgetCreationPage.java" />
         <option value="$PROJECT_DIR$/src/TestwidgetCreation.java" />
         <option value="$PROJECT_DIR$/src/TestPlayListEntityCreation.java" />
-        <option value="$PROJECT_DIR$/src/SanityCheck.java" />
-        <option value="$PROJECT_DIR$/src/WidgetCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/EntityCreationPage.java" />
         <option value="$PROJECT_DIR$/src/PlayListEntityCreation.java" />
+        <option value="$PROJECT_DIR$/src/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/WidgetCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/SanityCheck.java" />
       </list>
     </option>
   </component>
@@ -301,8 +256,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +417,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -480,8 +435,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967062" sideWeight="0.67140824" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24710424" sideWeight="0.68428373" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31571627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24710424" sideWeight="0.6940195" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30598053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -554,37 +509,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestADExternalImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="100" selection-start="713" selection-end="1112" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TEstBaseWidgetCreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigsProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="7" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config_properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VideoCreationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WaiterOfPageLoad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
@@ -599,6 +523,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseWidgetCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="840" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="57" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestADExternalImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestPlayListEntityCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="15" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
@@ -606,9 +551,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SanityCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="53" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0">
+        <state line="10" column="44" selection-start="297" selection-end="297" vertical-scroll-proportion="0.18201284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config_properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -620,44 +572,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseWidgetCreationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="840" selection-end="841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WidgetCreationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="34" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdCreationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EntityCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="75" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+        <state line="13" column="26" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayListEntityCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.9168539">
+        <state line="32" column="26" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="27" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WidgetCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VideoCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="116" selection-start="719" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SanityCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="26" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="119" selection-start="941" selection-end="1023" vertical-scroll-proportion="0.49682876">
           <folding />
         </state>
       </provider>

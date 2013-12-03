@@ -17,11 +17,11 @@ public class LoginPage {
        public void loginToSystem(String login, String Password, String LinkToPortal){
            webDriver.get(LinkToPortal);
 
-           LoginField = webDriver.findElement(By.id("ctl00_cphContent_ctl00_txtLogin"));
+           LoginField = webDriver.findElement(By.id("username"));
            LoginField.sendKeys(login);
-           PasswordField = webDriver.findElement(By.id("ctl00_cphContent_ctl00_txtPassword"));
+           PasswordField = webDriver.findElement(By.id("password"));
            PasswordField.sendKeys(Password);
-           OkButton = webDriver.findElement(By.id("ctl00_cphContent_ctl00_btLogin"));
+           OkButton = webDriver.findElement(By.id("submit"));
            OkButton.click();
        }
 }

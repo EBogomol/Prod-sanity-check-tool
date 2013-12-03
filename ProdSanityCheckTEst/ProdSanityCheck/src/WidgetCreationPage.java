@@ -7,9 +7,7 @@ import java.util.List;
 public class WidgetCreationPage extends EntityCreationPage{
 
     private WebElement basewidget;
-    public  WebElement schemaTab;
-    public  WebElement width;
-    public WebElement height;
+
 
     BasePage basePage = new BasePage(webdriver);
 
@@ -19,16 +17,18 @@ public class WidgetCreationPage extends EntityCreationPage{
 
     public void createWidget() throws InterruptedException {
         basePage.openCreationPage("Widget");
-        fillTitlefield("TestWidtetEntity");
+
 
         WebElement select = webdriver.findElement(By.name("BaseEntity"));
         List<WebElement> options = select.findElements(By.tagName("option"));
         for (WebElement option : options) {
-            if("Ask Banner Base Widget".equals(option.getText()))
+            if("f7e27ea9-4fb1-48d5-86c2-035a25429367".equals(option.getAttribute("value")))
                 option.click();
         }
-        Thread.sleep(2000);
+        fillTitlefield("TestWidgetEntity");
+        Thread.sleep(7000);
         clickSubmitButton();
-    }
+        Thread.sleep(5000);
 
+    }
 }

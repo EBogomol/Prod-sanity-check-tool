@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 public class PlayListEntityCreation extends EntityCreationPage{
     public WebElement AdType;
     public WebElement screen;
-    public WebElement smallwidget;
+    public WebElement smallWidgetSelector;
+    public WebElement smallWidgetEntity;
+    public WebElement bigWidgetentity;
     public WebElement popupWindow;
 
     BasePage basePage = new BasePage(webdriver);
@@ -14,18 +16,20 @@ public class PlayListEntityCreation extends EntityCreationPage{
         super(driver);
     }
 
-    public void createPlayListentity() {
+    public void createPlayListentity(String smallwidgetID) throws InterruptedException {
         basePage.openCreationPage("Playlist");
         fillTitlefield("TestPlayListEntity");
         this.AdType = webdriver.findElement(By.id("UnitTypeId"));
         this.AdType.sendKeys("Collective TV");
         this.screen = webdriver.findElement(By.id("Screen"));
         this.screen.sendKeys("Desktop");
-        this.smallwidget = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
-        this.smallwidget.click();
-        popupWindow = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvPickerDialog']/div)"));
-        popupWindow.findElement()
-
+        this.smallWidgetSelector = webdriver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
+        this.smallWidgetSelector.click();
+        Thread.sleep(1000);
+        smallWidgetEntity = popupWindow.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" +smallwidgetID));
+        smallWidgetEntity.click();
+        //bigWidgetentity = popupWindow.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" +bigWidgetID));
+      //  bigWidgetentity.click();
         clickSubmitButton();
     }
 

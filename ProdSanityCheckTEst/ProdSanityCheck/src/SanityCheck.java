@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class SanityCheck {
          static FirefoxDriver driver;
+         static String WidgetEntityID;
 
     public void performSanityCheck() throws Exception {
         ConfigsProperties configs = ConfigsProperties.getInstance();
@@ -63,7 +64,12 @@ public class SanityCheck {
         tEstBaseWidgetCreation.checkabilityToCreateBW();
         widgetCreationPage.createWidget();
         testwidgetCreation.checkAbilityToCreateWidget();
-        playListEntityCreation.createPlayListentity();
+
+        basePage.URL = driver.getCurrentUrl();
+        System.out.println(basePage.URL);
+        WidgetEntityID = basePage.getEntityID(basePage.URL);
+        System.out.println(WidgetEntityID);
+        playListEntityCreation.createPlayListentity(WidgetEntityID);
         testADExternalImage.checkAbilityToCreateAd();
 
 

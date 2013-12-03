@@ -10,12 +10,11 @@ public class EntityCreationPage {
     public WebElement externalButton;
     public WebElement selectButton;
 
-
-    public EntityCreationPage(WebDriver driver){
+    public EntityCreationPage(WebDriver driver) {
         webdriver = driver;
     }
 
-        public void clickSubmitButton(){
+         public void clickSubmitButton(){
             SubmitButton = webdriver.findElement(By.id("btnSubmit"));
             SubmitButton.click();
     }
