@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="selenium-2.33">
-    <CLASSES>
-      <root url="jar://D:/Selenium/selenium-server-standalone-2.32.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
