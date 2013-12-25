@@ -1,5 +1,7 @@
 package com.oggi.tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,6 +17,16 @@ public class TestCampaignEntity extends EntityCreationPage {
         basePage.openCreationPage("Campaign");
         campaignCreationPage.createCampaignEntity(PlayListEntityCreation.playListEntityID);
         Assert.assertTrue(campaignCreationPage.checkAbilityToCreateCampaign(), "Campaign entity can't be created");
+    }
+    @Test
+    public void checkAbilityToMakeCampaignLife() {
+        loginPage.loginToSystem(Login, Password);
+        openDetailsPage(CampaignCreationPage.campaignId);
+        WebElement insertionOrderEditBtn = driver.findElement(By.xpath(".//*[@id='col2']/div[1]/div[1]/div/div/a/i"));
+        insertionOrderEditBtn.click();
+        campaignCreationPage.uploadInsertionOrder();
+        campaignCreationPage.launchCampaign();
+        Assert.assertTrue(campaignCreationPage.checkAbilityToMakeCampaignIsLife(),"Campaign can't be life");
     }
 }
 

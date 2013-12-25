@@ -12,6 +12,8 @@ public class BulkRenamePage extends EntityCreationPage {
     private WebElement allCheckBox;
     private WebElement saveBtn;
 
+    BasePage basePage = new BasePage();
+
     public void performBulkRename() {
         findField = driver.findElement(By.id("Find"));
         findField.sendKeys("RPS");
@@ -34,10 +36,7 @@ public class BulkRenamePage extends EntityCreationPage {
         else
             System.out.println("Something goes wrong during bulk renaming");
 
-        WebElement searchString = driver.findElement(By.id("searchCombo_txtSearchCriteria"));
-        searchString.sendKeys("bulkRename");
-        WebElement searchBtn = driver.findElement(By.xpath(".//*[@id='header']/div/div/div[3]/div/div/form/button"));
-        searchBtn.click();
+        basePage.search("bulkRename");
         String totalFoundStr = driver.findElement(By.xpath(".//*[@id='body']/div/div[1]/div[1]")).getText();
         if (totalFoundStr.equals("Total found: 1"))
             return true;

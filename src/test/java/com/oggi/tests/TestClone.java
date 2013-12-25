@@ -1,5 +1,7 @@
 package com.oggi.tests;
 
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestClone extends EntityCreationPage {
@@ -10,8 +12,9 @@ public class TestClone extends EntityCreationPage {
     @Test
     public void checkAbilityToCloneEntity() {
         loginPage.loginToSystem(Login, Password);
-        driver.get("http://manager.rm.collective.com/main/Playlist/f8d888ba-f700-4786-b0a2-73efaa43878b");
+        driver.get("http://manager.rm.collective.com/main/Playlist/" + PlayListEntityCreation.playListEntityID);
         basePage.cloneEntity();
         cloneEntityPage.cloneEntity();
+        Assert.assertTrue(cloneEntityPage.checkAbilityToCloneEntities(), "Clone was performed unsuccessfully");
     }
 }

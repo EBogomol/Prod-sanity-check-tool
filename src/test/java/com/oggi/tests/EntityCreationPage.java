@@ -3,7 +3,7 @@ package com.oggi.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class EntityCreationPage extends StartPoint {
+public class EntityCreationPage extends BasePage {
 
     public WebElement SubmitButton;
     public WebElement CancelButton;

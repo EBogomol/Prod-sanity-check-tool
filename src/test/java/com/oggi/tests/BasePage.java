@@ -16,6 +16,7 @@ public class BasePage extends StartPoint {
     private WebElement deleteButton;
     private String afterDeleteUrl;
     public Popup SureWindow;
+    private WebElement searchInputField;
 
 
     public String getTitle() {
@@ -37,6 +38,9 @@ public class BasePage extends StartPoint {
 
     public void openCreationPage(String entityName) {
         driver.get("http://manager.rm.collective.com/main/" + entityName + "/Create");
+    }
+    public void openDetailsPage(String entityID){
+        driver.get("http://manager.rm.collective.com/main/Campaign/"+entityID);
     }
 
     public boolean deleteUsedEntity(Map<String, String> entities) {
@@ -94,6 +98,13 @@ public class BasePage extends StartPoint {
         }
 
         return false;
+
+    }
+    public void search(String searchTerm){
+        searchInputField = driver.findElement(By.id("searchCombo_txtSearchCriteria"));
+        searchInputField.sendKeys(searchTerm);
+        WebElement searchBtn = driver.findElement(By.xpath(".//*[@id='header']/div/div/div[3]/div/div/form/button"));
+        searchBtn.click();
 
     }
 

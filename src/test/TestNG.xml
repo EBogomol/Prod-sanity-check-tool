@@ -7,7 +7,7 @@
 
             <class name="com.oggi.tests.TestPlayListEntity"/>
 
-            <class name="com.oggi.tests.TestBulkRename"/>
+            <class name="com.oggi.tests.TestCampaignEntity"/>
 
         </classes>
     </test>
