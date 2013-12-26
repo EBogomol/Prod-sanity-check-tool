@@ -5,9 +5,7 @@
     <test name="PortalChecks" preserve-order="true">
         <classes>
 
-            <class name="com.oggi.tests.TestPlayListEntity"/>
-
-            <class name="com.oggi.tests.TestCampaignEntity"/>
+            <class name="com.oggi.tests.TestAdEntity"/>
 
         </classes>
     </test>

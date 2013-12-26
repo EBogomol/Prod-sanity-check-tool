@@ -20,6 +20,7 @@ public class ConfigsProperties {
     public static String FileReporName;
     public static String LinkToPortal;
     public static String LocalPathToImage;
+    public static String CdnRootPage;
     public static List<String> EntityName;
 
 
@@ -44,6 +45,7 @@ public class ConfigsProperties {
        FileReporName     = configFile.getProperty("FILE_NAME");
        LinkToPortal      = configFile.getProperty("LINK_TO_PORTAL");
        LocalPathToImage       = configFile.getProperty("LOCAL_PATH_TO_IMAGE");
+        CdnRootPage      = configFile.getProperty("CDN_ROOT_PAGE");
 
 
     }
