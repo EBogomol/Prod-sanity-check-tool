@@ -59,11 +59,12 @@ public class AdCreationPage extends EntityCreationPage {
     public boolean checkAbilityToCreateAd() {
 
         settingModule = driver.findElement(By.id("properties"));
+        return settingModule.isDisplayed();
 
-        if (settingModule.isDisplayed())
-            return true;
-        else return false;
-
+    }
+    public boolean checkAbilityToCreateTheSameEntity(){
+        WebElement errorMessage = driver.findElement(By.xpath(".//*[@id='EditArea']/fieldset[1]/div[2]/div/span"));
+        return errorMessage.isDisplayed();
     }
 
 }

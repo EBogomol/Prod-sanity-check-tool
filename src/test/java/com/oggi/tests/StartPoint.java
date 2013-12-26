@@ -5,6 +5,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.File;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class StartPoint extends ConfigsProperties {
@@ -16,6 +18,9 @@ public class StartPoint extends ConfigsProperties {
     public void webDriverInitialization() {
 
         ConfigsProperties configs = ConfigsProperties.getInstance();
+
+        String file = new File("").getAbsolutePath().concat("\\resources\\file.txt");
+
 
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

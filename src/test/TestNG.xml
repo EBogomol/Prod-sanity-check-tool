@@ -4,10 +4,15 @@
 
     <test name="PortalChecks" preserve-order="true">
         <classes>
+            <class name="com.oggi.tests.TestAdEntity"/>
+
+            <class name="com.oggi.tests.TestVideoEntity"/>
+            <class name="com.oggi.tests.TestVideoList"/>
 
             <class name="com.oggi.tests.TestPlayListEntity"/>
 
             <class name="com.oggi.tests.TestCampaignEntity"/>
+
 
         </classes>
     </test>
