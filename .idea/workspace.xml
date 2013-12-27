@@ -83,7 +83,6 @@
   </component>
   <component name="DebuggerManager">
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestClone.java" line="17" class="com.oggi.tests.TestClone" package="com.oggi.tests">
         <option name="ENABLED" value="true" />
@@ -137,6 +136,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -149,7 +149,7 @@
       <file leaf-file-name="TestNG.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="64" selection-start="419" selection-end="481" vertical-scroll-proportion="0.0">
+            <state line="11" column="64" selection-start="403" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +176,7 @@
       <file leaf-file-name="ConfigsProperties.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="754" selection-end="754" vertical-scroll-proportion="0.30758426">
+            <state line="35" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.51544946">
               <folding />
             </state>
           </provider>
@@ -228,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/cloneEntityPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BulkRenamePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/EntityCreationPage.java" />
@@ -244,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestAdEntity.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/AdCreationPage.java" />
         <option value="$PROJECT_DIR$/src/test/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java" />
       </list>
     </option>
   </component>
@@ -341,24 +341,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProdSanityCheckMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prod-sanity-check-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -764,7 +750,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6008345" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26685795" sideWeight="0.6561265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26685795" sideWeight="0.6561265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26785713" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -844,13 +830,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="64" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="766" column="0" selection-start="28344" selection-end="28344" vertical-scroll-proportion="0.0" />
@@ -909,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="419" selection-end="481" vertical-scroll-proportion="0.0">
+        <state line="11" column="64" selection-start="403" selection-end="412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -935,9 +914,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="64" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="754" selection-end="754" vertical-scroll-proportion="0.30758426">
+        <state line="35" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.51544946">
           <folding />
         </state>
       </provider>
