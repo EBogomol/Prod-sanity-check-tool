@@ -19,9 +19,6 @@ public class StartPoint extends ConfigsProperties {
 
         ConfigsProperties configs = ConfigsProperties.getInstance();
 
-        String file = new File("").getAbsolutePath().concat("\\resources\\file.txt");
-
-
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

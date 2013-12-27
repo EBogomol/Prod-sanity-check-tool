@@ -13,7 +13,7 @@ public class AdCreationPage extends EntityCreationPage {
 
     public void createADUpload() {
         fillTitleField("testAdImageUploadSC");
-        uploadFile("file:///C:/Users/ebogomol/Pictures/testPicute.jpg");
+        uploadFile(pathToImageAd);
         clickSubmitButton();
         String adUploadEntityURL = driver.getCurrentUrl();
         adUploadEntityID = getEntityID(adUploadEntityURL);

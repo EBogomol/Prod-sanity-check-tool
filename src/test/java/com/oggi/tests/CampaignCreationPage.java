@@ -60,7 +60,7 @@ public class CampaignCreationPage extends EntityCreationPage {
 
     public void uploadInsertionOrder() {
         WebElement uploadBtn = driver.findElement(By.id("ExcelIo_Name_fUpload"));
-        uploadBtn.sendKeys("file:///C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/resources/OggiClientInsertionOrder.xlsx");
+        uploadBtn.sendKeys(pathToInsertionOrder);
         clickSubmitButton();
     }
     public void launchCampaign(){

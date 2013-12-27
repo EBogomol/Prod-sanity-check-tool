@@ -24,7 +24,7 @@ public class BaseWidgetCreationPage extends EntityCreationPage {
         this.width.sendKeys("300");
         this.height = driver.findElement(By.id("Height"));
         this.height.sendKeys("400");
-        uploadFile("file:///D:/Components%20testing/AnimationButton.swf");
+        uploadFile(pathToSWf);
         this.schema = driver.findElement(By.id("CommonSchema"));
         this.schema.sendKeys("Preroll Schema");
         clickSubmitButton();
@@ -49,7 +49,7 @@ public class BaseWidgetCreationPage extends EntityCreationPage {
         this.width.sendKeys("300");
         this.height = driver.findElement(By.id("Height"));
         this.height.sendKeys("400");
-        uploadFile("file:///D:/Components%20testing/AnimationButton.swf");
+        uploadFile(pathToSWf);
         this.schema = driver.findElement(By.id("CommonSchema"));
         this.schema.sendKeys("Preroll Schema");
         createWidgetcheckBox = driver.findElement(By.id("CreateWidget"));

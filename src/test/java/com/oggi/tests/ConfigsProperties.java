@@ -1,5 +1,6 @@
 package com.oggi.tests;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.List;
 import java.util.Properties;
@@ -18,7 +19,11 @@ public class ConfigsProperties {
     public static String Password;
     public static String LinkToPortal;
     public static String CdnRootPage;
-    public static List<String> EntityName;
+    public static String pathToImageAd;
+    public static String pathToReUploadImage;
+    public static String pathToInsertionOrder;
+    public static String pathToSWf;
+
 
 
     public static class SingletonHolder {
@@ -42,6 +47,12 @@ public class ConfigsProperties {
        CdnRootPage      = configFile.getProperty("CDN_ROOT_PAGE");
 
 
+    }
+    public void getResources(){
+        pathToImageAd = new File("").getAbsolutePath().concat("\\resources\\testImage.jpg");
+        pathToReUploadImage = new File("").getAbsolutePath().concat("\\resources\\testImage2.jpg");
+        pathToInsertionOrder = new File("").getAbsolutePath().concat("\\resources\\OggiClientInsertionOrder.xlsx");
+        pathToSWf = new File("").getAbsolutePath().concat("\\resources\\VideoPlayerWithCarousel.swf");
     }
 
 }
