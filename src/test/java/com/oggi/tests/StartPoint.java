@@ -19,6 +19,7 @@ public class StartPoint extends ConfigsProperties {
 
         ConfigsProperties configs = ConfigsProperties.getInstance();
 
+        getResources();
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

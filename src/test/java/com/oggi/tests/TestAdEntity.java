@@ -19,7 +19,7 @@ public class TestAdEntity extends EntityCreationPage {
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "Upload Ad can't be created");
     }
 
-    @Test (priority = 1)
+    //@Test (priority = 1)
     public void externalAdIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Ad");
@@ -27,7 +27,7 @@ public class TestAdEntity extends EntityCreationPage {
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "External Ad can't be created");
     }
 
-    @Test (priority = 1)
+    //@Test (priority = 1)
     public void documentIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Ad");
@@ -35,21 +35,21 @@ public class TestAdEntity extends EntityCreationPage {
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "Document Ad can't be created");
     }
 
-    @Test (priority = 1)
+   // @Test (priority = 1)
     public void flashIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Ad");
         adCreationPage.createSWF();
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "Flash Ad can't be created");
     }
-    @Test (priority = 2)
+    //@Test (priority = 2)
     public void adEntityIsEdited() {
         loginPage.loginToSystem(Login, Password);
         openEditPage(AdCreationPage.adUploadEntityID, "Ad");
         editAdEntityPage.editAdEntity();
         Assert.assertTrue(editAdEntityPage.checkAbilityToEditAdEntity(),"Ad Entity can't be edited");
     }
-    @Test
+   // @Test
     public void alreadyExistedEntityCantBeCreated(){
         loginPage.loginToSystem(Login, Password);
         openCreationPage("Ad");

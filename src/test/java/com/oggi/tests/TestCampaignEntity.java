@@ -28,6 +28,12 @@ public class TestCampaignEntity extends EntityCreationPage {
         campaignCreationPage.launchCampaign();
         Assert.assertTrue(campaignCreationPage.checkAbilityToMakeCampaignIsLife(),"Campaign can't be life");
     }
+    @Test
+    public void exportTrackersIsPerformed() throws Exception {
+        loginPage.loginToSystem(Login, Password);
+        String exportUrl = ("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
+        campaignCreationPage.downloadFile(exportUrl);
+    }
 }
 
 

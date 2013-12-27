@@ -4,6 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.List;
 
 public class CampaignCreationPage extends EntityCreationPage {
@@ -70,21 +76,34 @@ public class CampaignCreationPage extends EntityCreationPage {
     public void stopCampaign(){
 
     }
+        public void downloadFile(String exportURL) throws Exception{
+            URL url = null;
+            URLConnection con = null;
+            int i;
+            url = new URL(exportURL);
+            con = url.openConnection();
+// Here we are specifying the location where we really want to save the file.
+            File file = new File("C:\\Users\\ebogomol\\Documents\\GitHub\\Prod-sanity-check-tool\\resources");
+            BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
+            BufferedOutputStream bos = new BufferedOutputStream(
+                    new FileOutputStream(file));
+            while ((i = bis.read()) != -1) {
+                bos.write(i);
+            }
+            bos.flush();
+            bis.close();
+        }
 
     public boolean checkAbilityToCreateCampaign() {
         playlistAreaHolder = driver.findElement(By.id("generalData"));
-        if (playlistAreaHolder.isDisplayed())
-            return true;
-        else return false;
+        return playlistAreaHolder.isDisplayed();
     }
     public boolean checkAbilityToMakeCampaignIsLife(){
         statusField = driver.findElement(By.xpath(".//*[@id='generalData']/div/div[6]/div[2]/span"));
         String statusValue = statusField.getText();
         System.out.println(statusValue);
+        return statusValue.equals("Live");
 
-        if(statusValue.equals("Live"))
-            return true;
-        else return false;
     }
 
 }
