@@ -4,6 +4,8 @@ package com.oggi.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javax.script.ScriptException;
+
 
 public class TestVideoEntity extends EntityCreationPage {
 
@@ -11,15 +13,15 @@ public class TestVideoEntity extends EntityCreationPage {
     VideoCreationPage videoCreationPage = new VideoCreationPage();
     LoginPage loginPage = new LoginPage();
 
-
-    public void uploadVideoEntityIsCreated() throws InterruptedException {
+    @Test
+    public void uploadVideoEntityIsCreated() throws InterruptedException, ScriptException {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Video");
         videoCreationPage.createUploadVideoEntity();
         Assert.assertTrue(videoCreationPage.checkAbilityToCreateVideoEntity(), "Upload Video entity can't be created");
     }
 
-    @Test
+    //@Test
     public void externalVideoIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Video");

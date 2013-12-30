@@ -9,8 +9,6 @@
 
             <class name="com.oggi.tests.TestCampaignEntity"/>
 
-
-
         </classes>
     </test>
 </suite>

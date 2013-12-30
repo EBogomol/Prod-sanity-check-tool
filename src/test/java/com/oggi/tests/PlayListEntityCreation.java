@@ -35,13 +35,13 @@ public class PlayListEntityCreation extends EntityCreationPage {
 
         List<WebElement> optionsAdTypes = AdType.findElements(By.tagName("option"));
         for (WebElement option : optionsAdTypes) {
-            if("Expand, Custom".equals(option.getText()))
+            if ("Expand, Custom".equals(option.getText()))
                 option.click();
         }
         screen = driver.findElement(By.id("Screen"));
         List<WebElement> optionsScreens = screen.findElements(By.tagName("option"));
         for (WebElement option : optionsScreens) {
-            if("Desktop".equals(option.getText()))
+            if ("Desktop".equals(option.getText()))
                 option.click();
         }
         smallWidgetSelector = driver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
@@ -49,7 +49,7 @@ public class PlayListEntityCreation extends EntityCreationPage {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
 
         //smallWidgetEntity = driver.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" + smallWidgetID));
@@ -65,7 +65,7 @@ public class PlayListEntityCreation extends EntityCreationPage {
         playListEntityID = getEntityID(playListEntityURL);
     }
 
-    public void addNSImage(){
+    public void addNSImage() {
         WebElement imageButton = driver.findElement(By.xpath(".//*[@id='Noscript_Image_dvInlinePicker']/button[1]"));
         imageButton.click();
         imageField = driver.findElement(By.xpath(".//*[@id='Noscript_Image_dvPickerDialog']/div/div[4]/ul/li[1]"));
@@ -74,38 +74,44 @@ public class PlayListEntityCreation extends EntityCreationPage {
         clickThroughURL.sendKeys("http://google.com");
     }
 
-    public void addVideoList(){
+    public void addVideoList() {
         videoListField = driver.findElement(By.xpath(".//*[@id='VideoListId_dvInlinePicker']/button[1]"));
         videoListField.click();
         videoListEntity = driver.findElement(By.xpath(".//*[@id='VideoListId_dvPickerDialog']/div/div[4]/ul/li[1]"));
         videoListEntity.click();
     }
-    public void addFinalFrameImage(){
+
+    public void addFinalFrameImage() {
         finalFrameImage = driver.findElement(By.xpath(".//*[@id='FirstFrameImage_dvInlinePicker']/button[1]"));
         finalFrameImage.click();
         finalFrameImageEntity = driver.findElement(By.xpath(".//*[@id='FirstFrameImage_dvPickerDialog']/div/div[4]/ul/li[1]"));
         finalFrameImageEntity.click();
     }
-    public void changePlayListSettings(){
+
+    public void changePlayListSettings() {
         settingsTab = driver.findElement(By.xpath(".//*[@id='list-form']/div[2]/ul/li[2]/a"));
         settingsTab.click();
         centerExpandCheckbox = driver.findElement(By.id("rbCenterPosition"));
         centerExpandCheckbox.click();
         clickSubmitButton();
     }
+
     public boolean checkAbilityToCreatePlaylist() {
 
         settingModule = driver.findElement(By.id("properties"));
-        if (settingModule.isDisplayed())
-            return true;
-        else return false;
+        return settingModule.isDisplayed();
 
     }
-    public boolean checkAbilityToEditPlayList(){
+
+    public boolean checkAbilityToEditPlayList() {
         String position = driver.findElement(By.xpath(".//*[@id='mainParameters']/div/div/div[2]/div[1]/div[2]")).getText();
-        if (position.equals("Center"))
-            return true;
-        else return false;
+        return (position.equals("Center"));
+    }
+
+    public boolean checkAbilityCreatePlaylistWithoutNsI() {
+        WebElement errorMessage = driver.findElement(By.xpath(".//*[@id='Noscript']/div[1]/div/span"));
+        return errorMessage.isDisplayed();
+
     }
 }
 

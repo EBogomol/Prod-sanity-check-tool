@@ -1,7 +1,13 @@
 package com.oggi.tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+import javax.script.SimpleBindings;
 
 public class VideoCreationPage extends EntityCreationPage {
     private WebElement uploadButton;
@@ -24,25 +30,32 @@ public class VideoCreationPage extends EntityCreationPage {
         String videoEntityURL = driver.getCurrentUrl();
         externalVideoEntityID = getEntityID(videoEntityURL);
     }
-    public void createUploadVideoEntity() throws InterruptedException {
+    public void createUploadVideoEntity() throws ScriptException {
 
         fillTitleField("testVideoEntity_RPS");
-        //uploadButton = driver.findElement(By.id("btnMediaUpload"));
-        //uploadButton.click();
-        //loadButton = driver.findElement(By.id("Media_MediaFile_btUpload"));
-        //loadButton.click();
-        inputField = driver.findElement(By.id("SWFUpload_0"));
-        inputField.click();
-        //Forms.SendKeys.SendWait("C:/Users/ebogomol/Video/TestPreroll.mp4");
-        //uploadFile("file:///C:/Users/ebogomol/Video/TestPreroll.mp4");
-        Thread.sleep(3000);
+        ScriptEngineManager factory = new ScriptEngineManager();
+        ScriptEngine engine = factory.getEngineByName("JavaScript");
+        JavascriptExecutor js;
+        {
+         js = (JavascriptExecutor)driver;
+
+        }
+        String inputText = "var input = document.createElement('form'); input.action='/main/File/Upload'; input.enctype='multipart/form-data'; input.method='post'; input.id = 'MyForm'; input.innerHTML = \"<input type='file' name='Media.MediaFile' id='Media_MediaFile'>\";";
+        js.executeScript(inputText+" $('.input-append')[0].appendChild(input);$('#Media.MediaFile').val('file:///C:/Users/Public/Videos/Sample%20Videos/Wildlife.wmv')");
+
+        inputField = driver.findElement(By.id("Media_MediaFile"));
+        inputField.sendKeys("file:///C:/Users/Public/Videos/Sample%20Videos/Wildlife.wmv");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         clickSubmitButton();
     }
     public boolean checkAbilityToCreateVideoEntity(){
         settingModule = driver.findElement(By.id("properties"));
+        return settingModule.isDisplayed();
 
-        if (settingModule.isDisplayed())
-            return true;
-        else return false;
     }
 }
