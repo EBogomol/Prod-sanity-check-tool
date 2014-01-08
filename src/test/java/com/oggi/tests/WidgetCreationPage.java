@@ -44,8 +44,6 @@ public class WidgetCreationPage extends EntityCreationPage {
 
         settingModule = driver.findElement(By.id("properties"));
         return settingModule.isDisplayed();
-
-
     }
 
     public void changeWidthField(int width) {
@@ -55,7 +53,6 @@ public class WidgetCreationPage extends EntityCreationPage {
         final Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withMessage("Schema tab not found")
                 .withTimeout(10, TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("input[value='Schema']")));
-
 
         widthField = driver.findElement(By.id("Width"));
         widthField.clear();

@@ -3,7 +3,6 @@ package com.oggi.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 

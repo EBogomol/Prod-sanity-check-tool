@@ -7,7 +7,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class StartPoint extends ConfigsProperties {

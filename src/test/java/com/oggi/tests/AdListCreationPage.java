@@ -5,8 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.List;
-
 public class AdListCreationPage extends EntityCreationPage {
     public static String adlistID;
     private WebElement adUpload;

@@ -3,7 +3,6 @@ package com.oggi.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -72,9 +71,9 @@ public class CampaignCreationPage extends EntityCreationPage {
         launchBtn = driver.findElement(By.id("toggleLive"));
         launchBtn.click();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
 

@@ -33,13 +33,12 @@ public class TestDeleteEntities extends EntityCreationPage {
         entities.put(SchemaEntityCreationPage.schemaEntityID, "Schema");
         entities.put(BaseWidgetCreationPage.bwID,"BaseWidget");
         entities.put(WidgetCreationPage.widgetID,"Widget");
-
-
+        entities.put(BaseWidgetCreationPage.bw_wid_ID,"Widget");
 
 
         loginPage.loginToSystem(Login, Password);
         boolean notUsedEntityCanBeDeleted = basePage.deleteEntity(entities);
-        if (notUsedEntityCanBeDeleted = true)
+        if (notUsedEntityCanBeDeleted == true)
             Assert.assertTrue(basePage.checkAbilityToDeleteEntity(entities), "Can not delete entities");
         else Assert.fail();
     }

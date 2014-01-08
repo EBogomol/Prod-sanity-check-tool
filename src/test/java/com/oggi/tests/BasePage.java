@@ -1,16 +1,10 @@
 package com.oggi.tests;
 
 import com.gargoylesoftware.htmlunit.javascript.host.Popup;
-import com.sun.org.apache.bcel.internal.Constants;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 
 import java.io.File;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -59,7 +53,7 @@ public class BasePage extends StartPoint {
             {
 
                 driver.get("http://manager.rm.collective.com/main/" + value + "/" + key);
-                deleteButton = driver.findElement(By.xpath(".//*[@id='body']/div/div[3]/button"));
+                deleteButton = driver.findElement(By.cssSelector("button[class='btn btn-danger']"));
                 deleteButton.click();
                 deleteButtonOk = driver.findElement(By.xpath("html/body/div[2]/div[2]/a[2]"));
                 deleteButtonOk.click();
@@ -85,7 +79,7 @@ public class BasePage extends StartPoint {
             {
 
                 driver.get("http://manager.rm.collective.com/main/" + value + "/" + key);
-                deleteButton = driver.findElement(By.xpath(".//*[@id='body']/div/div[3]/button"));
+                deleteButton = driver.findElement(By.cssSelector("button[class='btn btn-danger']"));
                 deleteButton.click();
                 deleteButtonOk = driver.findElement(By.xpath("html/body/div[2]/div[2]/a[2]"));
                 deleteButtonOk.click();
@@ -118,7 +112,7 @@ public class BasePage extends StartPoint {
         searchBtn.click();
 
     }
-    public boolean checkFileExists() {
+    public boolean checkExportTrackersFileExists() {
         File f = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
          return f.exists();
 }
