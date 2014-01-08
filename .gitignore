@@ -1,0 +1,13 @@
+*.class
+
+# Package Files #
+# *.jar
+*.war
+*.ear
+
+.idea/workspace.xml
+.gradle/
+out/
+bin/
+build/
+rm-js/html5-web/src/main/resources/dev/paths.properties

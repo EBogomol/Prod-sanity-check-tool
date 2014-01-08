@@ -2,6 +2,7 @@ package com.oggi.tests;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -18,9 +19,19 @@ public class StartPoint extends ConfigsProperties {
     public void webDriverInitialization() {
 
         ConfigsProperties configs = ConfigsProperties.getInstance();
-
+        FirefoxProfile profile = new FirefoxProfile();
         getResources();
-        driver = new FirefoxDriver();
+        File file = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
+        if(file.delete()){
+            System.out.println(file.getName() + " is deleted!");
+        }else{
+            System.out.println("Delete operation is failed.");
+        }
+        profile.setPreference("browser.download.folderList",2);
+        profile.setPreference("browser.download.dir", pathToResourcesFolder);
+        profile.setPreference("dom.disable_open_during_load", false);
+        profile.setPreference("browser.helperApps.neverAsk.saveToDisk","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        driver = new FirefoxDriver(profile);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(LinkToPortal);

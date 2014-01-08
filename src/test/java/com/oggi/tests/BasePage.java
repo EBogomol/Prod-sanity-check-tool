@@ -1,9 +1,11 @@
 package com.oggi.tests;
 
 import com.gargoylesoftware.htmlunit.javascript.host.Popup;
+import com.sun.org.apache.bcel.internal.Constants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -109,5 +111,8 @@ public class BasePage extends StartPoint {
         searchBtn.click();
 
     }
-
+    public boolean checkFileExists() {
+        File f = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
+         return f.exists();
+}
 }

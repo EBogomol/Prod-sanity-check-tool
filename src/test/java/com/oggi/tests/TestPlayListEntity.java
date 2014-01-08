@@ -16,7 +16,7 @@ public class TestPlayListEntity extends EntityCreationPage {
     public void playlistEntityIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Playlist");
-        playListEntityCreation.createPlayListEntity(WidgetCreationPage.widgetID);
+        playListEntityCreation.createPlayListEntity("TestPlayListEntity_RPS",WidgetCreationPage.widgetID,BaseWidgetCreationPage.bw_wid_ID);
         Assert.assertTrue(playListEntityCreation.checkAbilityToCreatePlaylist(), "Playlist entity can't be created");
     }
 
@@ -34,7 +34,7 @@ public class TestPlayListEntity extends EntityCreationPage {
     public void playlistCantBeCreatedWithoutNsI() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Playlist");
-        playListEntityCreation.addVideoList();
+        playListEntityCreation.createPlayListEntity("TestPlayListEntity_RPS_test2",WidgetCreationPage.widgetID, BaseWidgetCreationPage.bw_wid_ID);
         Assert.assertTrue(playListEntityCreation.checkAbilityCreatePlaylistWithoutNsI(), "Playlist entity can't be edited");
     }
 }

@@ -29,7 +29,7 @@ public class PlayListEntityCreation extends EntityCreationPage {
     BasePage basePage = new BasePage();
 
 
-    public void createPlayListEntity(String smallWidgetID) {
+    public void createPlayListEntity(String entityName,String smallWidgetID, String bigWidgetID ) {
 
         fillTitleField("TestPlayListEntity_RPS");
         AdType = driver.findElement(By.id("UnitTypeId"));

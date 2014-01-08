@@ -18,24 +18,24 @@ public class BaseWidgetCreationPage extends EntityCreationPage {
 
     BasePage basePage = new BasePage();
 
-    public void createBaseWidgetEntityWithWidget() {
+    public void createBaseWidgetEntityWithWidget(String pathToSWF) {
         fillTitleField("BaseWidget+Widget_entity_test_SC_RPS");
         this.width = driver.findElement(By.id("Width"));
         this.width.sendKeys("300");
         this.height = driver.findElement(By.id("Height"));
         this.height.sendKeys("400");
-        uploadFile(pathToSWf);
+        uploadFile(pathToSWF);
         this.schema = driver.findElement(By.id("CommonSchema"));
         this.schema.sendKeys("Preroll Schema");
         clickSubmitButton();
         try {
-            Thread.sleep(5);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         clickSubmitButton();
         try {
-            Thread.sleep(5);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -59,23 +59,24 @@ public class BaseWidgetCreationPage extends EntityCreationPage {
         bwID = getEntityID(bwURL);
     }
 
-    public void editBaseWidgetEntity() {
+    public void editBaseWidgetEntity(String pathToSWF) {
         fillDiscriptionfield("test_entity");
+        uploadFile(pathToSWF);
         clickSubmitButton();
     }
 
     public boolean checkAbilityToCreateBW() {
         settingModule = driver.findElement(By.id("properties"));
-        if (settingModule.isDisplayed())
-            return true;
-        else return false;
+        return settingModule.isDisplayed();
     }
 
     public boolean checkAbilityToEditBW() {
         descriptionField = driver.findElement(By.xpath(".//*[@id='mainParameters']/div/div[1]/div[2]"));
-        if (descriptionField.getText().equals("test_entity"))
-            return true;
-        else return false;
+        return descriptionField.getText().equals("test_entity");
+    }
+    public boolean baseWidgetCantBeUpdatedWithWrongSWF(){
+        WebElement errorMessage = driver.findElement(By.xpath(".//*[@id='main']/form/fieldset[1]/div[4]/div/span"));
+        return errorMessage.isDisplayed();
     }
 
 }
