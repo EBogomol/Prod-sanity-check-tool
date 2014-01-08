@@ -20,12 +20,6 @@ public class StartPoint extends ConfigsProperties {
         ConfigsProperties configs = ConfigsProperties.getInstance();
         FirefoxProfile profile = new FirefoxProfile();
         getResources();
-        File file = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
-        if(file.delete()){
-            System.out.println(file.getName() + " is deleted!");
-        }else{
-            System.out.println("Delete operation is failed.");
-        }
         profile.setPreference("browser.download.folderList",2);
         profile.setPreference("browser.download.dir", pathToResourcesFolder);
         profile.setPreference("dom.disable_open_during_load", false);

@@ -20,7 +20,7 @@ public class WidgetCreationPage extends EntityCreationPage {
 
     public void createWidget() {
 
-        fillTitleField("TestWidgetEntity");
+        fillTitleField("TestWidgetEntity_Sc_RPS");
         WebElement select = driver.findElement(By.name("BaseEntity"));
         List<WebElement> options = select.findElements(By.tagName("option"));
         for (WebElement option : options) {

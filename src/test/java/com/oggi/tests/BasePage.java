@@ -116,4 +116,12 @@ public class BasePage extends StartPoint {
         File f = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
          return f.exists();
 }
+    public void cleanDirectoryUp(){
+        File file = new File(pathToResourcesFolder + "\\EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
+        if(file.delete()){
+            System.out.println(file.getName() + " is deleted!");
+        }else{
+            System.out.println("Delete operation is failed.");
+        }
+    }
 }

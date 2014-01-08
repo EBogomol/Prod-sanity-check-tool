@@ -12,7 +12,7 @@ public class AdCreationPage extends EntityCreationPage {
     public static String adSWFEntitylD;
 
     public void createADUpload() {
-        fillTitleField("testAdImageUploadSC");
+        fillTitleField("testAdImageUploadSC_RPS");
         uploadFile(pathToImageAd);
         clickSubmitButton();
         String adUploadEntityURL = driver.getCurrentUrl();

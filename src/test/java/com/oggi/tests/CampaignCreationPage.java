@@ -100,7 +100,6 @@ public class CampaignCreationPage extends EntityCreationPage {
         String statusValue = statusField.getText();
         System.out.println(statusValue);
         return statusValue.equals("Live");
-
     }
 
 }

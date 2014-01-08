@@ -31,16 +31,13 @@ public class BulkRenamePage extends EntityCreationPage {
 
     public boolean checkBulkRenameFuntion() {
         foundEntitiesRes = driver.findElement(By.xpath(".//*[@id='body']/div/div[2]/h2")).getText();
-        if (foundEntitiesRes.equals("1 entity successfully renamed"))
+        if (foundEntitiesRes.equals("14 entities successfully renamed"))
             driver.get("http://manager.rm.collective.com/main/Search?searchCriteria=&entityDef=All");
         else
             System.out.println("Something goes wrong during bulk renaming");
 
         basePage.search("bulkRename");
         String totalFoundStr = driver.findElement(By.xpath(".//*[@id='body']/div/div[1]/div[1]")).getText();
-        if (totalFoundStr.equals("Total found: 1"))
-            return true;
-        else return false;
-
+        return totalFoundStr.equals("Total found: 14");
     }
 }

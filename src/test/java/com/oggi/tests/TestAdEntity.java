@@ -43,7 +43,7 @@ public class TestAdEntity extends EntityCreationPage {
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "Flash Ad can't be created");
     }
 
-    @Test(priority = 2)
+    //@Test(priority = 2)
     public void adEntityIsEdited() {
         loginPage.loginToSystem(Login, Password);
         openEditPage(AdCreationPage.adUploadEntityID, "Ad");
@@ -51,7 +51,7 @@ public class TestAdEntity extends EntityCreationPage {
         Assert.assertTrue(editAdEntityPage.checkAbilityToEditAdEntity(), "Ad Entity can't be edited");
     }
 
-    @Test(priority = 2)
+    //@Test(priority = 2)
     public void alreadyExistedEntityCantBeCreated() {
         loginPage.loginToSystem(Login, Password);
         openCreationPage("Ad");

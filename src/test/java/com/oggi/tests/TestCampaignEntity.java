@@ -30,6 +30,7 @@ public class TestCampaignEntity extends EntityCreationPage {
     }
     @Test
     public void exportTrackersIsPerformed() throws Exception {
+        cleanDirectoryUp();
         loginPage.loginToSystem(Login, Password);
         driver.get("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
         basePage.checkExportTrackersFileExists();

@@ -12,7 +12,7 @@ public class VideoListCreationPage extends EntityCreationPage{
 
 
     public void createVideoListEntity(String videoExternalID){
-        fillTitleField("VideoListTEst_SC");
+        fillTitleField("VideoListTEst_SC_RPS");
         videoExternal = driver.findElement(By.id("picker_id_pickerId0_" + videoExternalID));
         target = driver.findElement(By.xpath(".//*[@id='pickerId0']/div/div[2]/div[1]/div/div/ul/li[1]"));
         new Actions(driver).dragAndDrop(videoExternal, target).perform();

@@ -13,7 +13,7 @@ public class TestVideoEntity extends EntityCreationPage {
     VideoCreationPage videoCreationPage = new VideoCreationPage();
     LoginPage loginPage = new LoginPage();
 
-    @Test
+    //@Test
     public void uploadVideoEntityIsCreated() throws InterruptedException, ScriptException {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Video");
@@ -21,7 +21,7 @@ public class TestVideoEntity extends EntityCreationPage {
         Assert.assertTrue(videoCreationPage.checkAbilityToCreateVideoEntity(), "Upload Video entity can't be created");
     }
 
-    //@Test
+    @Test
     public void externalVideoIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Video");
