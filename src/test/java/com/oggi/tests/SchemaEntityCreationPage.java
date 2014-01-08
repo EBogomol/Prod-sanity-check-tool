@@ -26,8 +26,6 @@ public class SchemaEntityCreationPage extends EntityCreationPage {
         buttonCount.sendKeys(countOfButtons);
         addButtonsButton = driver.findElement(By.xpath(".//*[@id='buttonCountForm']/div/button"));
         addButtonsButton.click();
-
-
     }
     public void clearSchemaElements(){
         clearButton = driver.findElement(By.xpath(".//*[@id='body']/div/div[2]/div[1]/div[2]/button[2]"));

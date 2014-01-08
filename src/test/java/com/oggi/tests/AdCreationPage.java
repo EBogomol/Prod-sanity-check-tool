@@ -30,7 +30,7 @@ public class AdCreationPage extends EntityCreationPage {
         adExternalEntitylD = getEntityID(adExternalEntityURl);
     }
 
-    public void createXMLDocument() {
+    public void createXMLDocument(boolean saveID) {
         fillTitleField("testXMLDocument_SC_RPS");
         adType = driver.findElement(By.id("Source"));
         adType.sendKeys("Document");
@@ -39,9 +39,13 @@ public class AdCreationPage extends EntityCreationPage {
         externalButton = driver.findElement(By.id("MediaFile"));
         externalButton.sendKeys("http://cdn.rm.collective-media.net/prod/2013-08/22c675bf-60b0-4121-b27d-b3c75ede945d_v6.xml");
         clickSubmitButton();
+        if (saveID == true){
         String adXMLEntityURl = driver.getCurrentUrl();
         adXMLEntitylD = getEntityID(adXMLEntityURl);
+        }
+
     }
+
     public void createSWF() {
         fillTitleField("testSWFSC_RPS");
         adType = driver.findElement(By.id("Source"));
@@ -62,7 +66,8 @@ public class AdCreationPage extends EntityCreationPage {
         return settingModule.isDisplayed();
 
     }
-    public boolean checkAbilityToCreateTheSameEntity(){
+
+    public boolean checkAbilityToCreateTheSameEntity() {
         WebElement errorMessage = driver.findElement(By.xpath(".//*[@id='EditArea']/fieldset[1]/div[2]/div/span"));
         return errorMessage.isDisplayed();
     }

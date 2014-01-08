@@ -1,9 +1,13 @@
 package com.oggi.tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -85,6 +89,9 @@ public class CampaignCreationPage extends EntityCreationPage {
     }
 
     public boolean checkAbilityToCreateCampaign() {
+        final Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withMessage("Status field wasn't find")
+                .withTimeout(10, TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("generalData")));
         playlistAreaHolder = driver.findElement(By.id("generalData"));
         return playlistAreaHolder.isDisplayed();
     }

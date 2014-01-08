@@ -31,7 +31,7 @@ public class TestAdEntity extends EntityCreationPage {
     public void documentIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Ad");
-        adCreationPage.createXMLDocument();
+        adCreationPage.createXMLDocument(true);
         Assert.assertTrue(adCreationPage.checkAbilityToCreateAd(), "Document Ad can't be created");
     }
 
@@ -55,7 +55,7 @@ public class TestAdEntity extends EntityCreationPage {
     public void alreadyExistedEntityCantBeCreated() {
         loginPage.loginToSystem(Login, Password);
         openCreationPage("Ad");
-        adCreationPage.createXMLDocument();
+        adCreationPage.createXMLDocument(false);
         Assert.assertTrue(adCreationPage.checkAbilityToCreateTheSameEntity(), "Already existed entity can be created");
     }
 

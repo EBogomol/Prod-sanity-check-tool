@@ -3,7 +3,11 @@ package com.oggi.tests;
 import com.gargoylesoftware.htmlunit.javascript.host.Popup;
 import com.sun.org.apache.bcel.internal.Constants;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.io.File;
 import java.util.List;
@@ -59,6 +63,11 @@ public class BasePage extends StartPoint {
                 deleteButton.click();
                 deleteButtonOk = driver.findElement(By.xpath("html/body/div[2]/div[2]/a[2]"));
                 deleteButtonOk.click();
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
                 WebElement failedToDeleteWin = driver.findElement(By.xpath("html/body/div[2]/div[1]"));
                 if (failedToDeleteWin.isDisplayed())
                     flag = false;

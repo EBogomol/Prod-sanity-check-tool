@@ -18,7 +18,7 @@ public class TestCampaignEntity extends EntityCreationPage {
         campaignCreationPage.createCampaignEntity(PlayListEntityCreation.playListEntityID);
         Assert.assertTrue(campaignCreationPage.checkAbilityToCreateCampaign(), "Campaign entity can't be created");
     }
-   //    @Test
+    @Test
     public void checkAbilityToMakeCampaignLife() {
         loginPage.loginToSystem(Login, Password);
         openDetailsPage(CampaignCreationPage.campaignId);
@@ -28,7 +28,7 @@ public class TestCampaignEntity extends EntityCreationPage {
         campaignCreationPage.launchCampaign();
         Assert.assertTrue(campaignCreationPage.checkAbilityToMakeCampaignIsLife(),"Campaign can't be life");
     }
-   // @Test
+    @Test
     public void exportTrackersIsPerformed() throws Exception {
         loginPage.loginToSystem(Login, Password);
         String exportUrl = ("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
