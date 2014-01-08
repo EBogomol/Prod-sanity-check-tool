@@ -44,7 +44,6 @@ public class AdListCreationPage extends EntityCreationPage {
 
     public boolean checkAbilityToCreateAdListEntity() {
         settingModule = driver.findElement(By.id("ads"));
-
         return settingModule.isDisplayed();
     }
 

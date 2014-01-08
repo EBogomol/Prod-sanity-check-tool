@@ -16,7 +16,7 @@ public class TestBaseWidget extends EntityCreationPage{
     public void baseWidgetEntity_WidgetIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("BaseWidget");
-        baseWidgetCreationPage.createBaseWidgetEntityWithWidget();
+        baseWidgetCreationPage.createBaseWidgetEntityWithWidget(pathToSWf);
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToCreateBW(), "Base widget with Widget entity can't be created");
     }
     @Test
@@ -30,7 +30,7 @@ public class TestBaseWidget extends EntityCreationPage{
     public void baseWidgetEntityIsEdited(){
         loginPage.loginToSystem(Login, Password);
         openEditPage(BaseWidgetCreationPage.bwID,"BaseWidget");
-        baseWidgetCreationPage.editBaseWidgetEntity();
+        baseWidgetCreationPage.editBaseWidgetEntity(pathToSWf);
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToEditBW(), "Base widget can't be edited");
     }
 }

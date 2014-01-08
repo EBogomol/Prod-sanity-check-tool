@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -79,9 +77,6 @@ public class WidgetCreationPage extends EntityCreationPage {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (widgetTitle.equals("TestWidget_SC_RPS Widget") && widthHeightValues.equals("300 / 300"))
-            return true;
-        else return false;
-
+        return widgetTitle.equals("TestWidget_SC_RPS Widget") && widthHeightValues.equals("300 / 300");
     }
 }

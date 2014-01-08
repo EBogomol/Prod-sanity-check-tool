@@ -96,10 +96,8 @@ public class BasePage extends StartPoint {
             driver.get("http://manager.rm.collective.com/main/" + value + "/" + key);
             WebElement errorMessageHeader = driver.findElement(By.xpath(".//*[@id='body']/div/div[1]/div[1]/h1"));
             String errorMessage = errorMessageHeader.getText();
-            if (errorMessage.equals("Oops, some error occurred"))
-                return true;
-            else return false;
-        }
+            return errorMessage.equals("Oops, some error occurred");
+            }
 
         return false;
 

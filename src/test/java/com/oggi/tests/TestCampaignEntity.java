@@ -32,7 +32,7 @@ public class TestCampaignEntity extends EntityCreationPage {
     public void exportTrackersIsPerformed() throws Exception {
         loginPage.loginToSystem(Login, Password);
         String exportUrl = ("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
-        campaignCreationPage.downloadFile(exportUrl);
+        basePage.checkFileExists();
     }
 }
 

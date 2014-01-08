@@ -1,8 +1,5 @@
 package com.oggi.tests;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 public class EditAdEntityPage extends EntityCreationPage {
     private String adTitle;
 
@@ -12,7 +9,7 @@ public class EditAdEntityPage extends EntityCreationPage {
 
 
     public void editAdEntity() {
-        uploadFile("file:///C:/Users/Public/Pictures/Sample%20Pictures/Love2.jpeg");
+        uploadFile(pathToImageAd);
         changeTitle("TestEditAd_RPS_SC");
         addCustomAttribute();
         fillCustomAttribute();
@@ -24,12 +21,9 @@ public class EditAdEntityPage extends EntityCreationPage {
         try {
             adTitle = basePage.getTitle();
         } catch (Exception e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
-        if (adTitle.equals("TestEditAd_RPS_SC Ad"))
-            return true;
-        else return false;
-
+        return adTitle.equals("TestEditAd_RPS_SC Ad");
     }
 
 }
