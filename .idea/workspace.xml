@@ -8,24 +8,24 @@
     <file path="/fragment.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388409343904" ignored="false" />
     <file path="/SanityCheck.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778498533" ignored="false" />
     <file path="/LoginPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778293407" ignored="false" />
-    <file path="/ConfigsProperties.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388157914850" ignored="false" />
+    <file path="/ConfigsProperties.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388415992641" ignored="false" />
     <file path="/TestLoginPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386780018710" ignored="false" />
     <file path="/AdCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388157973470" ignored="false" />
     <file path="/TestADUploadImage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386772435536" ignored="false" />
-    <file path="/TestNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160653644" ignored="false" />
+    <file path="/TestNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388490093207" ignored="false" />
     <file path="$PROJECT_DIR$/../trunk/src/test/java/testNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386257716041" ignored="false" />
-    <file path="/BasePage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387982526428" ignored="false" />
+    <file path="/BasePage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388487889495" ignored="false" />
     <file path="/TestUploadImage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386775692830" ignored="false" />
     <file path="/EntityCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387905919811" ignored="false" />
     <file path="/TestAdEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778283453" ignored="false" />
     <file path="/VideoCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388411554656" ignored="false" />
     <file path="/TestVideoEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387295880681" ignored="false" />
     <file path="/TestBaseWidgetCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387281566125" ignored="false" />
-    <file path="/BaseWidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388158073885" ignored="false" />
+    <file path="/BaseWidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388414695916" ignored="false" />
     <file path="/WidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387468726427" ignored="false" />
     <file path="/TestPlayListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387459996704" ignored="false" />
-    <file path="/PlayListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388400944377" ignored="false" />
-    <file path="/StartPoint.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160735710" ignored="false" />
+    <file path="/PlayListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388489763484" ignored="false" />
+    <file path="/StartPoint.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388486270786" ignored="false" />
     <file path="/EntityEditPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387301791555" ignored="false" />
     <file path="/AdListCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387284497898" ignored="false" />
     <file path="/TestAdListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387360697643" ignored="false" />
@@ -42,12 +42,12 @@
     <file path="/EditSchemaEntityPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387380384570" ignored="false" />
     <file path="/TestEditSchemaEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387391397740" ignored="false" />
     <file path="/TestDeleteEntities.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387881974503" ignored="false" />
-    <file path="/CampaignCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388159858120" ignored="false" />
+    <file path="/CampaignCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388489453515" ignored="false" />
     <file path="/TestAdEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387994010084" ignored="false" />
     <file path="/TestAdListEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387471945089" ignored="false" />
-    <file path="/TestPlayListEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388400649322" ignored="false" />
+    <file path="/TestPlayListEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388489846363" ignored="false" />
     <file path="/Dummy.txt" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388397214892" ignored="false" />
-    <file path="/TestBaseWidget.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387815572558" ignored="false" />
+    <file path="/TestBaseWidget.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388490428103" ignored="false" />
     <file path="/TestBulkRename.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387895184727" ignored="false" />
     <file path="/BulkRenamePage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387905837188" ignored="false" />
     <file path="/TestCampaign.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387888239578" ignored="false" />
@@ -59,7 +59,7 @@
     <file path="/InvoiceGenerationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387983734561" ignored="false" />
     <file path="/TestInvoiceGeneration.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387986938103" ignored="false" />
     <file path="/TestCampaignLife.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387987234288" ignored="false" />
-    <file path="/TestCampaignEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160058526" ignored="false" />
+    <file path="/TestCampaignEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388485761647" ignored="false" />
     <file path="/TestVideoEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388397202847" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,55 +83,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestClone.java" line="17" class="com.oggi.tests.TestClone" package="com.oggi.tests">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" line="34" class="com.oggi.tests.TestCampaignEntity" package="com.oggi.tests">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" line="45" class="com.oggi.tests.VideoCreationPage" package="com.oggi.tests">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -168,6 +121,83 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestClone.java" line="17" class="com.oggi.tests.TestClone" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" line="47" class="com.oggi.tests.VideoCreationPage" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java" line="112" class="com.oggi.tests.BasePage" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" line="36" class="com.oggi.tests.TestCampaignEntity" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java" line="18" class="com.oggi.tests.TestPlayListEntity" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -177,19 +207,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VideoCreationPage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java">
+      <file leaf-file-name="StartPoint.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="21" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.743295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampaignCreationPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
+            <state line="42" column="49" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.6562986">
               <folding />
             </state>
           </provider>
@@ -198,16 +219,16 @@
       <file leaf-file-name="TestNG.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="61" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="6" column="47" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPlayListEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+      <file leaf-file-name="CampaignCreationPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+            <state line="77" column="62" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,16 +237,61 @@
       <file leaf-file-name="PlayListEntityCreation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="18" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+            <state line="59" column="27" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestVideoEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java">
+      <file leaf-file-name="TestCampaignEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="56" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+            <state line="19" column="81" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="34" selection-start="4162" selection-end="4177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBaseWidget.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestBaseWidget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPlayListEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseWidgetCreationPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="29" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="17" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,30 +307,79 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestInvoiceGeneration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignLife.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/AdCreationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestAdEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/AdListCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java" />
         <option value="$PROJECT_DIR$/src/test/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestBaseWidget.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\ebogomol\apache-maven-3.1.1-bin\apache-maven-3.1.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProdSanityCheckMaven" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProdSanityCheckMaven" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProdSanityCheckMaven" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
-    <option name="y" value="-22" />
+    <option name="x" value="1587" />
+    <option name="y" value="-13" />
     <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -293,7 +408,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,6 +486,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,10 +495,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rm-flash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.43105447" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -403,46 +518,7 @@
       <recent name="C:\Users\ebogomol\workspace\auto-tests\auto-tests\ProdSanityCheckMaven\src\test\java\com\oggi\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVideoEntity">
-    <configuration default="false" name="TestClone" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.oggi.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProdSanityCheckMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.oggi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oggi.tests.TestClone" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63205" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml">
     <configuration default="false" name="TestCampaignEntity" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -476,40 +552,6 @@
       <listeners />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51504" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/src/test/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ProdSanityCheckMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54301" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -588,14 +630,111 @@
       <envs />
       <properties />
       <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49473" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBaseWidget" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.oggi.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProdSanityCheckMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.oggi.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.oggi.tests.TestBaseWidget" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="$PROJECT_DIR$/src/test/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ProdSanityCheckMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50539" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -708,16 +847,16 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application." />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestClone" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestCampaignEntity" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestCampaignEntity" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestBaseWidget" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
@@ -758,29 +897,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-22" width="1456" height="916" extended-state="6" />
+    <frame x="1587" y="-13" width="1456" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3610013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35302198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34650856" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3541963" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6008345" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33428982" sideWeight="0.74537694" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26685795" sideWeight="0.73913044" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26086956" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26685795" sideWeight="0.6458037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25274727" sideWeight="0.6097561" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6230441" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -855,9 +994,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestNG.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1029" column="0" selection-start="31804" selection-end="31804" vertical-scroll-proportion="0.0" />
+        <state line="766" column="0" selection-start="28344" selection-end="28344" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
@@ -865,88 +1004,98 @@
         <state line="79" column="0" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="620" column="0" selection-start="23017" selection-end="23017" vertical-scroll-proportion="0.024011299" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/SuiteRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="7656" selection-end="7656" vertical-scroll-proportion="0.023876404" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/SuiteRunnerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="68" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.092769444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.71896315">
+        <state line="50" column="56" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/AdListCreationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
+        <state line="721" column="17" selection-start="28657" selection-end="28657" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/SchemaEntityCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="17" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="34" selection-start="4162" selection-end="4177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="81" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="6" column="47" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestBaseWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+        <state line="36" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="18" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+        <state line="59" column="27" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_21/src.zip!/javax/script/AbstractScriptEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="0" selection-start="8425" selection-end="8425" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.38.0/selenium-remote-driver-2.38.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="0" selection-start="14984" selection-end="14984" vertical-scroll-proportion="0.3318584" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="906" column="0" selection-start="35473" selection-end="35473" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="21" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.743295">
+        <state line="18" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
+        <state line="77" column="62" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="49" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.6562986">
           <folding />
         </state>
       </provider>

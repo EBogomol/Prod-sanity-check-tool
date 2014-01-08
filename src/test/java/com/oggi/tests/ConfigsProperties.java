@@ -5,14 +5,6 @@ import java.io.FileInputStream;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created with IntelliJ IDEA.
- * User: ebogomol
- * Date: 03.08.13
- * Time: 13:16
- * To change this template use File | Settings | File Templates.
- */
-
 public class ConfigsProperties {
 
     public static String Login;
@@ -23,6 +15,8 @@ public class ConfigsProperties {
     public static String pathToReUploadImage;
     public static String pathToInsertionOrder;
     public static String pathToSWf;
+    public static String pathToWrongSWF;
+    public static String pathToResourcesFolder;
 
 
 
@@ -49,10 +43,12 @@ public class ConfigsProperties {
 
     }
     public void getResources(){
+        pathToResourcesFolder = new File("").getAbsolutePath().concat("\\resources");
         pathToImageAd = new File("").getAbsolutePath().concat("\\resources\\testImage.jpg");
         pathToReUploadImage = new File("").getAbsolutePath().concat("\\resources\\testImage2.jpg");
         pathToInsertionOrder = new File("").getAbsolutePath().concat("\\resources\\OggiClientInsertionOrder.xlsx");
         pathToSWf = new File("").getAbsolutePath().concat("\\resources\\VideoPlayerWithCarousel.swf");
+        pathToWrongSWF = new File("").getAbsolutePath().concat("\\resources\\PrerollAdvanced.swf");
     }
 
 }

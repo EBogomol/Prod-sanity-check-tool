@@ -4,6 +4,9 @@
 
     <test name="PortalChecks" preserve-order="true">
         <classes>
+            <class name="com.oggi.tests.TestBaseWidget"/>
+
+            <class name="com.oggi.tests.TestWidgetEntity"/>
 
             <class name="com.oggi.tests.TestPlayListEntity"/>
 

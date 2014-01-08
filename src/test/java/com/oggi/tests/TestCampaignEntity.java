@@ -1,7 +1,10 @@
 package com.oggi.tests;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,7 +21,7 @@ public class TestCampaignEntity extends EntityCreationPage {
         campaignCreationPage.createCampaignEntity(PlayListEntityCreation.playListEntityID);
         Assert.assertTrue(campaignCreationPage.checkAbilityToCreateCampaign(), "Campaign entity can't be created");
     }
-    @Test
+   // @Test
     public void checkAbilityToMakeCampaignLife() {
         loginPage.loginToSystem(Login, Password);
         openDetailsPage(CampaignCreationPage.campaignId);
@@ -31,8 +34,8 @@ public class TestCampaignEntity extends EntityCreationPage {
     @Test
     public void exportTrackersIsPerformed() throws Exception {
         loginPage.loginToSystem(Login, Password);
-        String exportUrl = ("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
-        campaignCreationPage.downloadFile(exportUrl);
+        driver.get("http://manager.rm.collective.com/main/Campaign/Export/" + CampaignCreationPage.campaignId);
+        Assert.assertTrue(basePage.checkFileExists(),"File wasn't loaded");
     }
 }
 

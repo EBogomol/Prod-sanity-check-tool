@@ -12,25 +12,32 @@ public class TestBaseWidget extends EntityCreationPage{
     BaseWidgetCreationPage baseWidgetCreationPage = new BaseWidgetCreationPage();
     LoginPage loginPage = new LoginPage();
 
-    @Test
+    @Test (priority = 1)
     public void baseWidgetEntity_WidgetIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("BaseWidget");
-        baseWidgetCreationPage.createBaseWidgetEntityWithWidget();
+        baseWidgetCreationPage.createBaseWidgetEntityWithWidget(pathToSWf);
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToCreateBW(), "Base widget with Widget entity can't be created");
     }
-    @Test
+    @Test (priority = 1)
     public void baseWidgetEntityIsCreated(){
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("BaseWidget");
         baseWidgetCreationPage.createBaseWidgetEntity();
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToCreateBW(), "Base widget entity can't be created");
     }
-    @Test
+    @Test (priority = 1)
     public void baseWidgetEntityIsEdited(){
         loginPage.loginToSystem(Login, Password);
         openEditPage(BaseWidgetCreationPage.bwID,"BaseWidget");
-        baseWidgetCreationPage.editBaseWidgetEntity();
+        baseWidgetCreationPage.editBaseWidgetEntity(pathToSWf);
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToEditBW(), "Base widget can't be edited");
+    }
+    @Test (priority = 1)
+    public void canBeReUploadedOnlyWithTheSameFile(){
+        loginPage.loginToSystem(Login, Password);
+        openEditPage(BaseWidgetCreationPage.bwID,"BaseWidget");
+        baseWidgetCreationPage.editBaseWidgetEntity(pathToWrongSWF);
+        Assert.assertTrue(baseWidgetCreationPage.baseWidgetCantBeUpdatedWithWrongSWF(), "Problems with BW validation");
     }
 }

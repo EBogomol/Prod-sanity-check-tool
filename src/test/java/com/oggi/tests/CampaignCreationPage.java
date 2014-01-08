@@ -1,7 +1,9 @@
 package com.oggi.tests;
 
+import com.gargoylesoftware.htmlunit.WebClient;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
 
 import java.io.BufferedInputStream;
@@ -69,36 +71,33 @@ public class CampaignCreationPage extends EntityCreationPage {
         uploadBtn.sendKeys(pathToInsertionOrder);
         clickSubmitButton();
     }
-    public void launchCampaign(){
+
+    public void launchCampaign() {
         launchBtn = driver.findElement(By.id("toggleLive"));
         launchBtn.click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
-    public void stopCampaign(){
+
+    public void stopCampaign() {
 
     }
-        public void downloadFile(String exportURL) throws Exception{
-            URL url = null;
-            URLConnection con = null;
-            int i;
-            url = new URL(exportURL);
-            con = url.openConnection();
-// Here we are specifying the location where we really want to save the file.
-            File file = new File("C:\\Users\\ebogomol\\Documents\\GitHub\\Prod-sanity-check-tool\\resources");
-            BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
-            BufferedOutputStream bos = new BufferedOutputStream(
-                    new FileOutputStream(file));
-            while ((i = bis.read()) != -1) {
-                bos.write(i);
-            }
-            bos.flush();
-            bis.close();
-        }
+    public void importTrackers(){
+        WebElement inputField = driver.findElement(By.id("File"));
+        inputField.sendKeys(pathToResourcesFolder + "EnsembleTrackers - TestCampaign_SC_RPS.xlsx");
+        WebElement importBtn = driver.findElement(By.xpath(".//*[@id='importForm']/div[2]/button[1]"));
+        importBtn.click();
+    }
 
     public boolean checkAbilityToCreateCampaign() {
         playlistAreaHolder = driver.findElement(By.id("generalData"));
         return playlistAreaHolder.isDisplayed();
     }
-    public boolean checkAbilityToMakeCampaignIsLife(){
+
+    public boolean checkAbilityToMakeCampaignIsLife() {
         statusField = driver.findElement(By.xpath(".//*[@id='generalData']/div/div[6]/div[2]/span"));
         String statusValue = statusField.getText();
         System.out.println(statusValue);

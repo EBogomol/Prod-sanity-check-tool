@@ -28,9 +28,9 @@ public class PlayListEntityCreation extends EntityCreationPage {
     BasePage basePage = new BasePage();
 
 
-    public void createPlayListEntity(String smallWidgetID) {
+    public void createPlayListEntity(String entityName, String smallWidgetID, String bigWidgetID, boolean noSImage) {
 
-        fillTitleField("TestPlayListEntity_RPS");
+        fillTitleField(entityName);
         AdType = driver.findElement(By.id("UnitTypeId"));
 
         List<WebElement> optionsAdTypes = AdType.findElements(By.tagName("option"));
@@ -52,14 +52,16 @@ public class PlayListEntityCreation extends EntityCreationPage {
             e.printStackTrace();
         }
 
-        //smallWidgetEntity = driver.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" + smallWidgetID));
-        smallWidgetEntity = driver.findElement(By.xpath(".//*[@id='WidgetId_dvPickerDialog']/div/div[4]/ul/li[1]"));
+        smallWidgetEntity = driver.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" + smallWidgetID));
+        //smallWidgetEntity = driver.findElement(By.xpath(".//*[@id='WidgetId_dvPickerDialog']/div/div[4]/ul/li[1]"));
         smallWidgetEntity.click();
-        bigWidgetSelector = driver.findElement(By.xpath(".//*[@id='BigWidgetId_dvInlinePicker']/button[1]"));
+       // bigWidgetSelector = driver.findElement(By.xpath(".//*[@id='BigWidgetId_dvInlinePicker']/button[1]"));
+        bigWidgetSelector = driver.findElement(By.id("picker_id_BigWidgetId_dvPickerDialog_"+ bigWidgetID));
         bigWidgetSelector.click();
         bigWidgetEntity = driver.findElement(By.xpath(".//*[@id='BigWidgetId_dvPickerDialog']/div/div[4]/ul/li[3]"));
         bigWidgetEntity.click();
-        addNSImage();
+        if (noSImage == true)
+            addNSImage();
         clickSubmitButton();
         String playListEntityURL = driver.getCurrentUrl();
         playListEntityID = getEntityID(playListEntityURL);

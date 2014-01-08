@@ -1,5 +1,10 @@
 package com.oggi.tests;
 
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.mime.MultipartEntity;
+import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -8,6 +13,7 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import javax.script.SimpleBindings;
+import java.io.File;
 
 public class VideoCreationPage extends EntityCreationPage {
     private WebElement uploadButton;
@@ -33,15 +39,11 @@ public class VideoCreationPage extends EntityCreationPage {
     public void createUploadVideoEntity() throws ScriptException {
 
         fillTitleField("testVideoEntity_RPS");
-        ScriptEngineManager factory = new ScriptEngineManager();
-        ScriptEngine engine = factory.getEngineByName("JavaScript");
-        JavascriptExecutor js;
-        {
-         js = (JavascriptExecutor)driver;
-
-        }
-        String inputText = "var input = document.createElement('form'); input.action='/main/File/Upload'; input.enctype='multipart/form-data'; input.method='post'; input.id = 'MyForm'; input.innerHTML = \"<input type='file' name='Media.MediaFile' id='Media_MediaFile'>\";";
-        js.executeScript(inputText+" $('.input-append')[0].appendChild(input);$('#Media.MediaFile').val('file:///C:/Users/Public/Videos/Sample%20Videos/Wildlife.wmv')");
+        HttpClient httpclient = new DefaultHttpClient();
+        HttpPost httppost = new HttpPost("http://manager.rm.collective.com/main/Video/Create");
+        MultipartEntity reqEntity = new MultipartEntity();
+        reqEntity.addPart("someFile", new FileBody(new File("file:///C:/Users/Public/Videos/Sample%20Videos/Wildlife.wmv")));
+        httppost.setEntity(reqEntity);
 
         inputField = driver.findElement(By.id("Media_MediaFile"));
         inputField.sendKeys("file:///C:/Users/Public/Videos/Sample%20Videos/Wildlife.wmv");

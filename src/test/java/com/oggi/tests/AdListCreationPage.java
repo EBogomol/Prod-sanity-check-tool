@@ -19,7 +19,7 @@ public class AdListCreationPage extends EntityCreationPage {
 
     BasePage basePage = new BasePage();
 
-    public void createAdListEntity(String UploadAdId, String ExternalAdId, String XMLAdId, String SWFAdId){
+    public void createAdListEntity(String UploadAdId, String ExternalAdId, String XMLAdId, String SWFAdId) {
         fillTitleField("TestAdListEntity_RPS");
         adUpload = driver.findElement(By.id("picker_id_pickerId_" + UploadAdId));
         targetArea = driver.findElement(By.xpath(".//*[@id='pickerId']/div/div[2]/div[1]/div/div/ul"));
@@ -36,25 +36,25 @@ public class AdListCreationPage extends EntityCreationPage {
 
     }
 
-    public void editAdListEntity(){
+    public void editAdListEntity() {
         deleteAdButton = driver.findElement(By.xpath(".//*[@id='pickerId']/div/div[2]/div[1]/div/div/ul/li[4]/i"));
         deleteAdButton.click();
         clickSubmitButton();
     }
-    public boolean checkAbilityToCreateAdListEntity(){
+
+    public boolean checkAbilityToCreateAdListEntity() {
         settingModule = driver.findElement(By.id("ads"));
 
-        if (settingModule.isDisplayed())
+        return settingModule.isDisplayed();
+    }
+
+    public boolean checkAbilityToEditAdList() {
+
+        int row = driver.findElements(By.xpath(".//*[@id='ads']/div/table/tbody/tr")).size();
+        if (row == 3)
             return true;
         else return false;
-
     }
-    public boolean checkAbilityToEditAdList(){
 
-        int row =driver.findElements(By.xpath(".//*[@id='ads']/div/table/tbody/tr")).size();
-        if (row == 3)
-        return true;
-        else return false;
-       }
 
 }

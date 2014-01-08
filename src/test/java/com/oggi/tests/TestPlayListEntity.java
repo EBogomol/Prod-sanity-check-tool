@@ -16,11 +16,11 @@ public class TestPlayListEntity extends EntityCreationPage {
     public void playlistEntityIsCreated() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Playlist");
-        playListEntityCreation.createPlayListEntity(WidgetCreationPage.widgetID);
+        playListEntityCreation.createPlayListEntity("TestPlayListEntity_RPS",WidgetCreationPage.widgetID,BaseWidgetCreationPage.bw_wid_ID, true);
         Assert.assertTrue(playListEntityCreation.checkAbilityToCreatePlaylist(), "Playlist entity can't be created");
     }
 
-    @Test(priority = 2)
+    //@Test(priority = 2)
     public void playlistIsEdited() {
         loginPage.loginToSystem(Login, Password);
         openEditPage(PlayListEntityCreation.playListEntityID, "Playlist");
@@ -30,11 +30,11 @@ public class TestPlayListEntity extends EntityCreationPage {
         Assert.assertTrue(playListEntityCreation.checkAbilityToEditPlayList(), "Playlist entity can't be edited");
     }
 
-    @Test (priority = 3)
+    //@Test (priority = 3)
     public void playlistCantBeCreatedWithoutNsI() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Playlist");
-        playListEntityCreation.addVideoList();
+        playListEntityCreation.createPlayListEntity("TestPlayListEntity_RPS_test2",WidgetCreationPage.widgetID, BaseWidgetCreationPage.bw_wid_ID, false);
         Assert.assertTrue(playListEntityCreation.checkAbilityCreatePlaylistWithoutNsI(), "Playlist entity can't be edited");
     }
 }
