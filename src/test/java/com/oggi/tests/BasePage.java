@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class BasePage extends StartPoint {
 
@@ -21,6 +22,7 @@ public class BasePage extends StartPoint {
 
     public String getTitle() {
         try {
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             title = driver.findElement(By.xpath(".//*[@id='body']/div/div[1]/h1"));
             PageTitle = title.getText();
 

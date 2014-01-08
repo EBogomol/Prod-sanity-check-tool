@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class PlayListEntityCreation extends EntityCreationPage {
     public WebElement AdType;
@@ -46,12 +47,8 @@ public class PlayListEntityCreation extends EntityCreationPage {
         }
         smallWidgetSelector = driver.findElement(By.xpath(".//*[@id='WidgetId_dvInlinePicker']/button[1]"));
         smallWidgetSelector.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //smallWidgetEntity = driver.findElement(By.id("picker_id_WidgetId_dvPickerDialog_" + smallWidgetID));
         smallWidgetEntity = driver.findElement(By.xpath(".//*[@id='WidgetId_dvPickerDialog']/div/div[4]/ul/li[1]"));
         smallWidgetEntity.click();

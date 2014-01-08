@@ -20,7 +20,7 @@ public class TestWidgetEntity extends EntityCreationPage {
         Assert.assertTrue(widgetCreationPage.checkAbilityToCreateWidget(), "Widget entity can't be created");
 
     }
-    @Test
+    //@Test
     public void widgetEntityIsEdited(){
         loginPage.loginToSystem(Login, Password);
         openEditPage(WidgetCreationPage.widgetID,"Widget");

@@ -18,11 +18,6 @@ public class EditAdEntityPage extends EntityCreationPage {
         fillCustomAttribute();
         removeCustomAttribute();
         clickSubmitButton();
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
     }
 
     public boolean checkAbilityToEditAdEntity() {

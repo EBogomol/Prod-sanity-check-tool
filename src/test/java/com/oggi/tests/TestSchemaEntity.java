@@ -18,7 +18,7 @@ public class TestSchemaEntity extends EntityCreationPage {
         schemaEntityCreationPage.createSchemaEntity();
         Assert.assertTrue(schemaEntityCreationPage.checkAbilityToCreateSchemaEntity(), "Schema entity can't be created");
     }
-    @Test (priority = 2)
+    //@Test (priority = 2)
     public void schemaEntityIsEdited() {
         loginPage.loginToSystem(Login,Password);
         openEditPage(SchemaEntityCreationPage.schemaEntityID, "Schema");

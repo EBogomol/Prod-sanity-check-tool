@@ -19,7 +19,7 @@ public class TestAdListEntity extends EntityCreationPage {
         Assert.assertTrue(adListCreationPage.checkAbilityToCreateAdListEntity(), "AdList entity can't be created");
     }
 
-    @Test (priority = 3)
+    //@Test (priority = 3)
     public void adListIsEdited(){
         loginPage.loginToSystem(Login, Password);
         openEditPage(AdListCreationPage.adlistID,"AdList");

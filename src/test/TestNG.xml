@@ -4,11 +4,14 @@
 
     <test name="PortalChecks" preserve-order="true">
         <classes>
-
+            <class name="com.oggi.tests.TestAdEntity"/>
+            <class name="com.oggi.tests.TestAdListEntity"/>
+            <class name="com.oggi.tests.TestBaseWidget"/>
+            <class name="com.oggi.tests.TestWidgetEntity"/>
             <class name="com.oggi.tests.TestPlayListEntity"/>
-
+            <class name="com.oggi.tests.TestSchemaEntity"/>
             <class name="com.oggi.tests.TestCampaignEntity"/>
-
+            <class name="com.oggi.tests.TestDeleteEntities"/>
         </classes>
     </test>
 </suite>

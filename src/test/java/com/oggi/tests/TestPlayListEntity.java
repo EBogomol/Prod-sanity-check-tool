@@ -20,7 +20,7 @@ public class TestPlayListEntity extends EntityCreationPage {
         Assert.assertTrue(playListEntityCreation.checkAbilityToCreatePlaylist(), "Playlist entity can't be created");
     }
 
-    @Test(priority = 2)
+    //@Test(priority = 2)
     public void playlistIsEdited() {
         loginPage.loginToSystem(Login, Password);
         openEditPage(PlayListEntityCreation.playListEntityID, "Playlist");
@@ -30,7 +30,7 @@ public class TestPlayListEntity extends EntityCreationPage {
         Assert.assertTrue(playListEntityCreation.checkAbilityToEditPlayList(), "Playlist entity can't be edited");
     }
 
-    @Test (priority = 3)
+    //@Test (priority = 3)
     public void playlistCantBeCreatedWithoutNsI() {
         loginPage.loginToSystem(Login, Password);
         basePage.openCreationPage("Playlist");

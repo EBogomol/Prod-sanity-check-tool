@@ -11,6 +11,7 @@ import java.io.FileOutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class CampaignCreationPage extends EntityCreationPage {
     private WebElement campaignName;
@@ -50,11 +51,9 @@ public class CampaignCreationPage extends EntityCreationPage {
                 option.click();
 
         clickSubmitButton();
-        try {
-            Thread.sleep(7000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         playlistEntity = driver.findElement(By.id("picker_id_pickerId_" + playlistID));
         playlistAreaHolder = driver.findElement(By.xpath(".//*[@id='pickerId']/div/div[2]/div[1]/div/div/ul/li"));
         new Actions(driver).dragAndDrop(playlistEntity, playlistAreaHolder).perform();

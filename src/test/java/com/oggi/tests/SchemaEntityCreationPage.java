@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class SchemaEntityCreationPage extends EntityCreationPage {
     private WebElement buttonCount;
     private WebElement addButtonsButton;
@@ -30,11 +32,8 @@ public class SchemaEntityCreationPage extends EntityCreationPage {
     public void clearSchemaElements(){
         clearButton = driver.findElement(By.xpath(".//*[@id='body']/div/div[2]/div[1]/div[2]/button[2]"));
         clearButton.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("html/body/div[2]/div[2]/a[2]")).click();
     }
 

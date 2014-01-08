@@ -5,24 +5,24 @@
     <ignored path="ProdSanityCheckMaven.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestWidgetCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387469581283" ignored="false" />
-    <file path="/fragment.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388409343904" ignored="false" />
+    <file path="/fragment.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388695647920" ignored="false" />
     <file path="/SanityCheck.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778498533" ignored="false" />
     <file path="/LoginPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778293407" ignored="false" />
     <file path="/ConfigsProperties.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388157914850" ignored="false" />
     <file path="/TestLoginPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386780018710" ignored="false" />
     <file path="/AdCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388157973470" ignored="false" />
     <file path="/TestADUploadImage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386772435536" ignored="false" />
-    <file path="/TestNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160653644" ignored="false" />
+    <file path="/TestNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388695332895" ignored="false" />
     <file path="$PROJECT_DIR$/../trunk/src/test/java/testNG.xml" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386257716041" ignored="false" />
     <file path="/BasePage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387982526428" ignored="false" />
     <file path="/TestUploadImage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386775692830" ignored="false" />
     <file path="/EntityCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387905919811" ignored="false" />
     <file path="/TestAdEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1386778283453" ignored="false" />
-    <file path="/VideoCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388411554656" ignored="false" />
+    <file path="/VideoCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388475231630" ignored="false" />
     <file path="/TestVideoEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387295880681" ignored="false" />
     <file path="/TestBaseWidgetCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387281566125" ignored="false" />
     <file path="/BaseWidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388158073885" ignored="false" />
-    <file path="/WidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387468726427" ignored="false" />
+    <file path="/WidgetCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388687909307" ignored="false" />
     <file path="/TestPlayListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387459996704" ignored="false" />
     <file path="/PlayListEntityCreation.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388400944377" ignored="false" />
     <file path="/StartPoint.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160735710" ignored="false" />
@@ -41,7 +41,7 @@
     <file path="/EditvideoEntityPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387380125462" ignored="false" />
     <file path="/EditSchemaEntityPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387380384570" ignored="false" />
     <file path="/TestEditSchemaEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387391397740" ignored="false" />
-    <file path="/TestDeleteEntities.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387881974503" ignored="false" />
+    <file path="/TestDeleteEntities.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388697930000" ignored="false" />
     <file path="/CampaignCreationPage.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388159858120" ignored="false" />
     <file path="/TestAdEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387994010084" ignored="false" />
     <file path="/TestAdListEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387471945089" ignored="false" />
@@ -61,6 +61,7 @@
     <file path="/TestCampaignLife.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1387987234288" ignored="false" />
     <file path="/TestCampaignEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388160058526" ignored="false" />
     <file path="/TestVideoEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388397202847" ignored="false" />
+    <file path="/TestWidgetEntity.java" changelist="cfd58f42-4a81-4e8c-81cb-63d0bde3507e" time="1388683887851" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +84,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestClone.java" line="17" class="com.oggi.tests.TestClone" package="com.oggi.tests">
         <option name="ENABLED" value="true" />
@@ -101,7 +100,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" line="34" class="com.oggi.tests.TestCampaignEntity" package="com.oggi.tests">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" line="40" class="TestCampaignEntity.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -116,7 +115,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" line="45" class="com.oggi.tests.VideoCreationPage" package="com.oggi.tests">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestDeleteEntities.java" line="19" class="com.oggi.tests.TestDeleteEntities" package="com.oggi.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestDeleteEntities.java" line="24" class="com.oggi.tests.TestDeleteEntities" package="com.oggi.tests">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -132,6 +146,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -177,55 +193,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VideoCreationPage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java">
+      <file leaf-file-name="TestDeleteEntities.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestDeleteEntities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="21" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.743295">
+            <state line="42" column="54" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CampaignCreationPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java">
+      <file leaf-file-name="MethodInvocationHelper.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/MethodInvocationHelper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
+            <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.44">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestNG.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
+      <file leaf-file-name="Invoker.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="61" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="-7.12">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPlayListEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+      <file leaf-file-name="TestMethodWorker.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/TestMethodWorker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+            <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-7.12">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayListEntityCreation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java">
+      <file leaf-file-name="TestRunner.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/TestRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="18" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+            <state line="102" column="17" selection-start="6363" selection-end="6363" vertical-scroll-proportion="-7.48">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestVideoEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java">
+      <file leaf-file-name="BasePage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="56" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+            <state line="76" column="73" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.33275262">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="By.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.38.0/selenium-api-2.38.0.jar!/org/openqa/selenium/By.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="41" selection-start="960" selection-end="960" vertical-scroll-proportion="-7.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteWebDriver.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.38.0/selenium-remote-driver-2.38.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="16" selection-start="3584" selection-end="3584" vertical-scroll-proportion="-7.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImmutableMap.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/ImmutableMap.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="70" selection-start="913" selection-end="913" vertical-scroll-proportion="-7.64">
               <folding />
             </state>
           </provider>
@@ -241,30 +284,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestInvoiceGeneration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignLife.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/ConfigsProperties.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/AdCreationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/WidgetCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestAdListEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestBaseWidget.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestWidgetEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestSchemaEntity.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestAdEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestDeleteEntities.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/AdListCreationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/EditAdEntityPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/SchemaEntityCreationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
-    <option name="y" value="-22" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1862" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -292,8 +335,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,6 +413,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,46 +446,7 @@
       <recent name="C:\Users\ebogomol\workspace\auto-tests\auto-tests\ProdSanityCheckMaven\src\test\java\com\oggi\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVideoEntity">
-    <configuration default="false" name="TestClone" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.oggi.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProdSanityCheckMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.oggi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oggi.tests.TestClone" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63205" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Руслан/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml">
     <configuration default="false" name="TestCampaignEntity" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -476,40 +480,6 @@
       <listeners />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51504" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/src/test/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ProdSanityCheckMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54301" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -590,6 +560,70 @@
       <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWidgetEntity" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ProdSanityCheckMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.oggi.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.oggi.tests.TestWidgetEntity" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="$PROJECT_DIR$/src/test/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ProdSanityCheckMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="16203" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -708,19 +742,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application." />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestClone" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestCampaignEntity" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestCampaignEntity" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestWidgetEntity" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/Руслан/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestPlayListEntity" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/ebogomol/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Руслан/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Руслан/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Руслан/Documents/GitHub/Prod-sanity-check-tool/src/test/TestNG.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestWidgetEntity" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestVideoEntity" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -758,29 +792,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-22" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1862" height="1096" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23880596" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3610013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36034116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34650856" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272921" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6008345" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26685795" sideWeight="0.73913044" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26086956" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.63965887" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26012793" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6230441" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -855,98 +889,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestNG.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BulkRenamePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1029" column="0" selection-start="31804" selection-end="31804" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="620" column="0" selection-start="23017" selection-end="23017" vertical-scroll-proportion="0.024011299" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/SuiteRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="7656" selection-end="7656" vertical-scroll-proportion="0.023876404" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/SuiteRunnerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="68" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.092769444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestCampaignEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.71896315">
+        <state line="5" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/AdListCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BaseWidgetCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="38" column="30" selection-start="1250" selection-end="1250" vertical-scroll-proportion="-0.24887556">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestPlayListEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/AdCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="-0.8095952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/PlayListEntityCreation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoListCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="18" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.09883721">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_21/src.zip!/javax/script/AbstractScriptEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/WidgetCreationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="0" selection-start="8425" selection-end="8425" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.38.0/selenium-remote-driver-2.38.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="0" selection-start="14984" selection-end="14984" vertical-scroll-proportion="0.3318584" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="906" column="0" selection-start="35473" selection-end="35473" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestVideoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="36" column="2" selection-start="1196" selection-end="1266" vertical-scroll-proportion="0.64244187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/VideoCreationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/StartPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="21" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.743295">
+        <state line="11" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.036337208">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/CampaignCreationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/ImmutableMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
+        <state line="16" column="70" selection-start="913" selection-end="913" vertical-scroll-proportion="-7.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.38.0/selenium-remote-driver-2.38.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="16" selection-start="3584" selection-end="3584" vertical-scroll-proportion="-7.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.38.0/selenium-api-2.38.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="960" selection-end="960" vertical-scroll-proportion="-7.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="-7.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-7.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.7/testng-6.7.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="17" selection-start="6363" selection-end="6363" vertical-scroll-proportion="-7.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/TestDeleteEntities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="54" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oggi/tests/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="73" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.33275262">
           <folding />
         </state>
       </provider>

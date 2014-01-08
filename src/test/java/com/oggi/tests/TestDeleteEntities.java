@@ -18,11 +18,12 @@ public class TestDeleteEntities extends EntityCreationPage {
         loginPage.loginToSystem(Login, Password);
         entities.put(AdCreationPage.adExternalEntitylD, "Ad");
         Assert.assertFalse(basePage.deleteUsedEntity(entities));
-        entities.clear();
     }
 
     @Test(priority = 2)
     public void entitiesAreDeleted() {
+        entities.clear();
+        entities.put(CampaignCreationPage.campaignId,"Campaign");
         entities.put(PlayListEntityCreation.playListEntityID,"Playlist");
         entities.put(AdListCreationPage.adlistID, "AdList");
         entities.put(AdCreationPage.adUploadEntityID, "Ad");

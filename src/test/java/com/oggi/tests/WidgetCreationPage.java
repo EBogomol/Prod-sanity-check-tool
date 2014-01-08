@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class WidgetCreationPage extends EntityCreationPage {
     static String widgetID;
@@ -28,17 +29,14 @@ public class WidgetCreationPage extends EntityCreationPage {
             if ("f7e27ea9-4fb1-48d5-86c2-035a25429367".equals(option.getAttribute("value")))
                 option.click();
         }
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.findElement(By.id("Properties_0__Name"));
+
         clickSubmitButton();
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.findElement(By.id("widgetObject"));
+
         String widgetURL = driver.getCurrentUrl();
         widgetID = getEntityID(widgetURL);
 
@@ -47,20 +45,20 @@ public class WidgetCreationPage extends EntityCreationPage {
     public boolean checkAbilityToCreateWidget() {
 
         settingModule = driver.findElement(By.id("properties"));
-        if (settingModule.isDisplayed())
-            return true;
-        else return false;
+        return settingModule.isDisplayed();
+
 
     }
 
     public void changeWidthField(int width) {
         driver.findElement(By.xpath(".//*[@id='content']/ul/li[2]/a")).click();
         String widthValue = String.valueOf(width);
-        try {
-            Thread.sleep(7000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        final Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withMessage("Schema tab not found")
+                .withTimeout(10, TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("input[value='Schema']")));
+
+
         widthField = driver.findElement(By.id("Width"));
         widthField.clear();
         widthField.sendKeys(widthValue);

@@ -26,7 +26,7 @@ public class TestBaseWidget extends EntityCreationPage{
         baseWidgetCreationPage.createBaseWidgetEntity();
         Assert.assertTrue(baseWidgetCreationPage.checkAbilityToCreateBW(), "Base widget entity can't be created");
     }
-    @Test
+    //@Test
     public void baseWidgetEntityIsEdited(){
         loginPage.loginToSystem(Login, Password);
         openEditPage(BaseWidgetCreationPage.bwID,"BaseWidget");
